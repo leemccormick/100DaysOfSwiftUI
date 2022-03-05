@@ -3,7 +3,7 @@ import Foundation
 
 var greeting = "Hello, playground"
 
-// Day 3 - 100 Days Of SwiftUI : 03/02/2022
+// Day 2 - 100 Days Of SwiftUI : 03/02/2022
 // How to store truth with Booleans
 
 let filename = "paris.jpg"
