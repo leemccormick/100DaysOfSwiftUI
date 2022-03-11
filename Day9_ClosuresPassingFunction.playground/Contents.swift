@@ -327,7 +327,6 @@ doImportantWork {
  Your input is this:
  */
 
-let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
 
 /*
  Your job is to:
@@ -350,3 +349,32 @@ let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
  3) To chain these functions, use luckyNumbers.first { }.second { }, obviously putting the real function calls in there.
  4) You should use isMultiple(of:) to remove even numbers.
  */
+
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+
+luckyNumbers.filter { $0 % 2 != 0 }.sorted().map { num -> String in
+    print("\(num) is a lucky number")
+    return "\(num) is a lucky number"
+}
+
+func printLuckyNumber(getArray: () -> [String], printArray: ([String]) -> Void) {
+    print("About to start first work ==> getArray")
+    let newlucky = getArray()
+    print("About to start second work ==> printArray")
+    printArray(newlucky)
+}
+
+printLuckyNumber {
+    let nReturnStringArray = luckyNumbers.filter { num in
+        num % 2 != 0
+    }.sorted().map { num -> String in
+        print("\(num) is a lucky number in function parameter!")
+        return "\(num) is a lucky number"}
+    return nReturnStringArray
+} printArray : { array in
+    print("nReturnStringArray from : \(array)")
+    for a in array {
+        print("\(a) is a lucky number in function using parameter in function!")
+    }
+}
+
