@@ -17,8 +17,8 @@ struct ContentView: View {
     
     var totalPerPerson: Double {
         let peopleCount = Double(numberOfPeople + 2) // Because array of 2 is 4 people on Picker
-        let tipSection = Double(tipPercentage)
-        let tipValue = checkAmount / 100 * tipSection
+        let tipSelection = Double(tipPercentage)
+        let tipValue = checkAmount / 100 * tipSelection
         let grandTotal = checkAmount + tipValue
         let amountPerPerson = grandTotal / peopleCount
         return amountPerPerson
