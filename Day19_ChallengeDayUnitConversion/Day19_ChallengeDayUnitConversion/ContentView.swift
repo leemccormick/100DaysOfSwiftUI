@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var lengthInput = 0.0
-    
     @State private var lengthInputUnit = "miles"
     @State private var lengthOutputUnit = "miles"
     @FocusState private var lengthIsFocus: Bool
@@ -95,7 +94,6 @@ struct ContentView: View {
         }
     }
     
-    
     var body: some View {
         NavigationView {
             Form {
@@ -122,15 +120,16 @@ struct ContentView: View {
                 } header: {
                     Text("Output Length Conversion")
                 }
-            }.navigationTitle("Length Conversion")
-                .toolbar {
-                    ToolbarItemGroup(placement: .keyboard) {
-                        Spacer()
-                        Button("Done") {
-                            lengthIsFocus = false
-                        }
+            }
+            .navigationTitle("Length Conversion")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") {
+                        lengthIsFocus = false
                     }
                 }
+            }
         }
     }
 }
