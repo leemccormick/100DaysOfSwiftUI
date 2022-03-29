@@ -36,6 +36,7 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 ![Screen Shot 2022-03-19 at 12 36 37 AM](https://user-images.githubusercontent.com/57606580/159108757-d966bb2b-da4b-4b01-adad-e34714160948.png)
 
 - Day 19 – Challenge day
+
 ![Screen Shot 2022-03-20 at 9 17 17 PM](https://user-images.githubusercontent.com/57606580/159203245-4f9cc5b6-cff3-4ac8-8bdd-c7c96fb3be1b.png)
 
 - Day 20 – Project 2, part one
@@ -50,6 +51,8 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
 
 - NEW: Day 25 – Milestone: Projects 1-3
+![Screen Shot 2022-03-26 at 11 39 07 PM](https://user-images.githubusercontent.com/57606580/160267129-5c7acae6-db86-4910-9081-d1d62184c4ff.png)
+
  
 ## Days 26-34: Expanding your skills
 In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
