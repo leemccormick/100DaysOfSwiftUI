@@ -36,8 +36,7 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 ![Screen Shot 2022-03-19 at 12 36 37 AM](https://user-images.githubusercontent.com/57606580/159108757-d966bb2b-da4b-4b01-adad-e34714160948.png)
 
 - Day 19 – Challenge day
-
-![Screen Shot 2022-03-20 at 9 17 17 PM](https://user-images.githubusercontent.com/57606580/159203245-4f9cc5b6-cff3-4ac8-8bdd-c7c96fb3be1b.png)
+![Screen Shot 2022-03-29 at 12 34 32 AM](https://user-images.githubusercontent.com/57606580/160540461-4cc27004-00e7-4b77-a4dc-b91e83ffd1a6.png)
 
 - Day 20 – Project 2, part one
 - Day 21 – Project 2, part two
@@ -60,6 +59,8 @@ In these next three projects we’re going to develop your SwiftUI skills in new
 - Day 26 – Project 4, part one
 - Day 27 – Project 4, part two
 - Day 28 – Project 4, part three
+![Screen Shot 2022-03-29 at 12 32 06 AM](https://user-images.githubusercontent.com/57606580/160540426-eb61355a-d2c4-4018-b1fb-15eee98209ea.png)
+
 - Day 29 – Project 5, part one
 - Day 30 – Project 5, part two
 - Day 31 – Project 5, part three
