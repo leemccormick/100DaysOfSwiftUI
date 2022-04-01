@@ -64,6 +64,8 @@ In these next three projects we’re going to develop your SwiftUI skills in new
 - Day 29 – Project 5, part one
 - Day 30 – Project 5, part two
 - Day 31 – Project 5, part three
+![Screen Shot 2022-03-31 at 8 39 34 PM](https://user-images.githubusercontent.com/57606580/161178182-b7f6058e-d889-4407-9bc6-6a30776ac314.png)
+
 - Day 32 – Project 6, part one
 - Day 33 – Project 6, part two
 - Day 34 – Project 6, part three
