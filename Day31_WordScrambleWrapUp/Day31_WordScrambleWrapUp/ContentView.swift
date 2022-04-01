@@ -23,17 +23,17 @@ struct ContentView: View {
                 Section {
                     TextField("Enter your word", text: $newWord)
                         .autocapitalization(.none)
+                } header: {
+                    Text("Score : \(scores) | \(numbersOfAttempt)")
+                        .font(.title)
                 }
                 Section {
                     ForEach (usedWords, id: \.self) { word in
                         HStack {
-                            Image(systemName: "\(word.count).circle.fill")
+                            Image(systemName: "\(word.count).circle")
+                            Text(word)
                         }
                     }
-                    VStack(alignment: .trailing) {
-                        Text("Score : \(scores) | \(numbersOfAttempt)")
-                    }
-                    
                 }
             }
             .navigationTitle(rootWord)
@@ -118,11 +118,11 @@ struct ContentView: View {
     }
     
     func isNotTooShot(word: String) -> Bool {
-        word.count > 3
+        word.count >= 3
     }
     
     func isRootWord(word: String) -> Bool {
-        word == rootWord
+        word != rootWord
     }
     
     func wordError(title: String, message: String) {
@@ -137,7 +137,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
 
 /*
  Challenge
