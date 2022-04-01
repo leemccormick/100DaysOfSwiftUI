@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var errorTitle = ""
     @State private var errorMessage = ""
     @State private var showingError = false
+    
     var body: some View {
         NavigationView {
             List {
@@ -58,7 +59,7 @@ struct ContentView: View {
         }
         
         guard isPossible(word: answer) else {
-            wordError(title: "Word used possible!", message: "You can't spell that word from '\(rootWord)' !")
+            wordError(title: "Word not possible!", message: "You can't spell that word from '\(rootWord)' !")
             return
         }
         
@@ -132,8 +133,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-/*
- Project 5, part 2
+/* Project 5, part 2
  Now that you understand the techniques necessary for this project, today we’ll be implementing our game. Yes, there will be a fair chunk of practice here, and yes, hopefully this will be an easy project for you. But that shouldn’t stop you from tackling it with gusto – give it your best shot!
  
  Try to keep in mind some famous words from the American writer and lecturer Dale Carnegie:
