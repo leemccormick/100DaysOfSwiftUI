@@ -12,17 +12,17 @@ struct ContentView: View {
     @State private var animationAmount = 0.0
     var body: some View {
         VStack {
-        Button("Tapped Me") {
-            // Do something here...
-            withAnimation(.interpolatingSpring(stiffness: 5, damping: 1)) {
-                animationAmount += 360
+            Button("Tapped Me") {
+                // Do something here...
+                withAnimation(.interpolatingSpring(stiffness: 5, damping: 1)) {
+                    animationAmount += 360
+                }
             }
-        }
-        .padding(50)
-        .background(.red)
-        .foregroundColor(.white)
-        .clipShape(Circle())
-        .rotation3DEffect(.degrees(animationAmount), axis: (x: 0, y: 1, z: 0))
+            .padding(50)
+            .background(.red)
+            .foregroundColor(.white)
+            .clipShape(Circle())
+            .rotation3DEffect(.degrees(animationAmount), axis: (x: 0, y: 1, z: 0))
         }
     }
 }
@@ -63,8 +63,8 @@ struct ContentView_Previews: PreviewProvider {
  }
  */
 
-/*  Customizing animations in SwiftUI
- struct ContentView: View {
+//  Customizing animations in SwiftUI
+/*struct ContentView: View {
  @State private var animationAmount = 1.0
  
  var body: some View {
@@ -81,7 +81,6 @@ struct ContentView_Previews: PreviewProvider {
  .stroke()
  .scaleEffect(animationAmount)
  .opacity(2 - animationAmount)
- 
  .animation(.easeOut(duration: 2)
  .repeatForever(autoreverses: false),
  value: animationAmount)
@@ -107,7 +106,7 @@ struct ContentView_Previews: PreviewProvider {
   .animation(.easeOut(duration: 2)
   .repeatForever(autoreverses: true),
   value: animationAmount) */
- } // STOP at 5.37
+ }
  }*/
 
 /* Project 6, part 1

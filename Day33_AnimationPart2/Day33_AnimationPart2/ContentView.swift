@@ -16,7 +16,7 @@ struct CornerRotateModifier: ViewModifier {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
             .clipped()
-    }
+             }
 }
 
 extension AnyTransition {
@@ -58,8 +58,8 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-/* Showing and hiding views with transitions
-struct ContentView: View {
+// Showing and hiding views with transitions
+/*struct ContentView: View {
     @State private var isShowingRed = false
     var body: some View {
         VStack {
@@ -83,8 +83,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
- */
+}*/
 
 /* Animating gestures
 struct ContentView: View {
