@@ -82,14 +82,7 @@ Now that your SwiftUI skills are starting to solidify, it’s time to review all
 ## Days 36-46: Scaling up to bigger apps
 Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
-- Day 36 – Project 7, part one
- - iExpense: Introduction
- - Why @State only works with structs
- - Sharing SwiftUI state with @StateObject
- - Showing and hiding views
- - Deleting items using onDelete()
- - Storing user settings with UserDefaults
- - Archiving Swift objects with Codable
+- Day 36 – Project 7, part one : iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
 - Day 37 – Project 7, part two
 - Day 38 – Project 7, part three
 - Day 39 – Project 8, part one
