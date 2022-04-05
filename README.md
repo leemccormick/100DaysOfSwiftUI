@@ -71,6 +71,8 @@ In these next three projects we’re going to develop your SwiftUI skills in new
 ![Screen Shot 2022-04-02 at 11 24 50 PM](https://user-images.githubusercontent.com/57606580/161411551-5ae2ae06-b734-4b97-9c2e-6cf897f1a122.png)
 
 - Day 34 – Project 6, part three
+![Screen Shot 2022-04-04 at 1 23 45 PM](https://user-images.githubusercontent.com/57606580/161658555-6235588f-33ea-4a9e-812e-a4ae2e1018c4.png)
+
  
 ## Day 35: Consolidation III
 Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
