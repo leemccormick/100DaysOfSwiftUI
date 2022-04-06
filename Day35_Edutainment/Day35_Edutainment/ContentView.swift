@@ -16,75 +16,120 @@ struct ContentView: View {
     @State private var questions = ["What is "]
     @State private var correctAnswers : [Int] = []
     
+    let letters = Array("EDUTAINMENT")
+    @State private var enabled = false
+    @State private var dragAmount = CGSize.zero
+    
+    
     var body: some View {
         ZStack {
             AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .orange]), center: .center)
                 .ignoresSafeArea()
             
             VStack {
-                Text("Edutainment")
+                HStack {
+                    Button("Start Game") {
+                        
+                    }
+                    .frame(width: 80, height: 80)
+                    .background(enabled ? .orange : .pink)
                     .foregroundColor(.white)
-                    .font(.largeTitle)
-                    .bold()
+                    .font(.headline)
                     .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                    .clipShape(RoundedRectangle(cornerRadius: 360))
+                    .animation(.default, value: true)
+                    
+                    HStack(spacing: 0) {                    ForEach(0..<letters.count) { num in
+                        Text(String(letters[num]))
+                            .padding(3)
+                            .font(.title)
+                            .background(enabled ? .yellow : .red)
+                            .offset(dragAmount)
+                            .animation(.default.delay(Double(num) / 20), value: dragAmount)
+                    }
+                    }
+                    .gesture(
+                        DragGesture()
+                            .onChanged { dragAmount = $0.translation }
+                            .onEnded { _ in
+                                dragAmount = .zero
+                                enabled.toggle()
+                            }
+                    )
+                }
+                .padding(10)
                 VStack {
-                    HStack {
-                        Text("Level Of Mutiplication : \(numberOfDifficulty)")
-                    Stepper("Multiple up to \(numberOfDifficulty)", value: $numberOfDifficulty, in: 2...12, step: 1)
-                        .labelsHidden()
-                    }
-                   // Section("Choose Number Of Question") {
-                    HStack {
-                        Text("Questions : ")
-                        Picker("Number Of Questions : ", selection: $numberOfQuestion) {
-                            ForEach (numberOfQuestions, id: \.self) {
-                                Text($0, format: .number)
-                            }
-                        }
-                        .pickerStyle(.segmented)
-                    }
-                   // }
-                }
-               
-                
-               
-                
-              
-                Button("Start Edutainment") {
-                    
-                }
-                //.background(.black)
-              //  .padding(20)
-                
-               
-                
-               
-                List {
-                    Section {
-                        TextField("Answer : ", text: $answer)
-                                                         .keyboardType(.numberPad)
-                    } header: {
+                    VStack(alignment: .center, spacing: 20)
+                    {
+                        
                         HStack {
-                        Text("What is 7 * 8?")
+                            Text("Level Of Mutiplication : \(numberOfDifficulty)")
+                                .foregroundColor(.white)
                                 .font(.headline)
-                            Spacer()
-                            Text("Score : \(score) of \(numberOfQuestion)")
-                                .font(.subheadline)
+                                .bold()
+                                .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                            Stepper("Multiple up to \(numberOfDifficulty)", value: $numberOfDifficulty, in: 2...12, step: 1)
+                                .labelsHidden()
+                                .foregroundColor(.white)
+                                .tint(.white)
+                                .background(.white)
+                                .cornerRadius(10)
                         }
-                    }
-                    
-                    Section {
-                        ForEach (questions, id: \.self) { q in
-                            HStack {
-                                Image(systemName: "check")
-                                Text(answer)
+                        HStack {
+                            Text("Questions : ")
+                                .foregroundColor(.white)
+                                .font(.headline)
+                                .bold()
+                                .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                            Picker("Number Of Questions : ", selection: $numberOfQuestion) {
+                                ForEach (numberOfQuestions, id: \.self) {
+                                    Text($0, format: .number)
+                                }
                             }
+                            .pickerStyle(.segmented)
+                            .foregroundColor(.brown)
+                            .tint(.red)
+                            .background(.white)
+                            .cornerRadius(10)
                         }
                     }
+                    .padding(20)
+                    
                 }
-                .background(.red)
                 
+                HStack {
+                    Text("What is 7 * 8?")
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
+                        .bold()
+                        .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                    
+                }
+                .padding(20)
                 
+                TextField("Answer : ", text: $answer)
+                    .keyboardType(.numberPad)
+                    .background()
+                    .foregroundColor(.green)
+                    .cornerRadius(10)
+                
+                    .padding(20)
+                List {
+                
+                    Text("Score : \(score) of \(numberOfQuestion)")
+                        .font(.subheadline)
+                    
+                    ForEach (questions, id: \.self) { q in
+                        HStack {
+                            Image(systemName: "check")
+                            Text(answer)
+                        }
+                    }
+                 
+                }
+                .padding(10)
+                .cornerRadius(10)
+               
             }
         }
     }
