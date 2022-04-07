@@ -85,7 +85,8 @@ Your core SwiftUI skills are strong, so it’s time to push past the basics and 
 - Day 36 – Project 7, part one : iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
 ![Screen Shot 2022-04-06 at 12 28 57 AM](https://user-images.githubusercontent.com/57606580/161902295-4a8df6b8-79a2-44f9-b327-36c07599f6f3.png)
 
-- Day 37 – Project 7, part two
+- Day 37 – Project 7, part two : Building a list we can delete from, Working with Identifiable items in SwiftUI, Sharing an observed object with a new view, Making changes permanent with UserDefaults and Final polish
+
 - Day 38 – Project 7, part three
 - Day 39 – Project 8, part one
 - Day 40 – Project 8, part two
