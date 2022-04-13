@@ -3,9 +3,8 @@ Learning swiftUI will be helpful for my career as an iOS developer. I would like
 - https://www.hackingwithswift.com/100/swiftui
 
 ## Days 1-14: Introduction to Swift
-The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper.
+The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper. Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 <br />:heavy_check_mark: ***Day 1 : variables, constants, strings, and numbers***
 <br />:heavy_check_mark: ***Day 2 : Booleans, string interpolation, and checkpoint 1***
 <br />:heavy_check_mark: ***Day 3 : Arrays, dictionaries, sets, and enums***
@@ -24,80 +23,84 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 ## Day 15: Consolidation I
 You just learned a lot about Swift in only 14 days, so before we continue it's important you reflect on what you've learned.
 
-<br />:heavy_check_mark: Day 15 : Swift review
+<br />:heavy_check_mark: ***Day 15 : Swift review*** 
  
 ## Days 16-24: Starting SwiftUI
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
-<br />:heavy_check_mark: Day 16 : Project 1, part one
-<br />:heavy_check_mark: Day 17 : Project 1, part two
-<br />:heavy_check_mark: Day 18 : Project 1, part three
+<br />:heavy_check_mark: ***Day 16 : Project 1, part one*** 
+<br />:heavy_check_mark: ***Day 17 : Project 1, part two*** 
+<br />:heavy_check_mark: ***Day 18 : Project 1, part three*** 
 ![Screen Shot 2022-03-19 at 12 36 37 AM](https://user-images.githubusercontent.com/57606580/159108757-d966bb2b-da4b-4b01-adad-e34714160948.png)
 
-<br />:heavy_check_mark: Day 19 : Challenge day
+<br />:heavy_check_mark: ***Day 19 : Challenge day*** 
 ![Screen Shot 2022-03-29 at 12 34 32 AM](https://user-images.githubusercontent.com/57606580/160540461-4cc27004-00e7-4b77-a4dc-b91e83ffd1a6.png)
 
-<br />:heavy_check_mark: Day 20 – Project 2, part one
+<br />:heavy_check_mark: ***Day 20 – Project 2, part one*** 
 - Day 21 – Project 2, part two
 ![Screen Shot 2022-03-21 at 11 44 47 PM](https://user-images.githubusercontent.com/57606580/159410031-5525bc78-f4a8-4597-ac03-d4787446dc6b.png)
 
-<br />:heavy_check_mark: Day 22 : Project 2, part three
-<br />:heavy_check_mark: Day 23 : Project 3, part one
-<br />:heavy_check_mark: Day 24 : Project 3, part two
+<br />:heavy_check_mark: ***Day 22 : Project 2, part three*** 
+<br />:heavy_check_mark: ***Day 23 : Project 3, part one*** 
+<br />:heavy_check_mark: ***Day 24 : Project 3, part two*** 
  
 ## Day 25: Consolidation II
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
 
-<br />:heavy_check_mark: Day 25 : Milestone: Projects 1-3
+<br />:heavy_check_mark: ***Day 25 : Milestone: Projects 1-3*** 
 ![Screen Shot 2022-03-26 at 11 39 07 PM](https://user-images.githubusercontent.com/57606580/160267129-5c7acae6-db86-4910-9081-d1d62184c4ff.png)
 
  
 ## Days 26-34: Expanding your skills
 In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
 
-<br />:heavy_check_mark: Day 26 : Project 4, part one
-<br />:heavy_check_mark: Day 27 : Project 4, part two
-<br />:heavy_check_mark: Day 28 : Project 4, part three
+<br />:heavy_check_mark: ***Day 26 : Project 4, part one*** 
+<br />:heavy_check_mark: ***Day 27 : Project 4, part two*** 
+<br />:heavy_check_mark: ***Day 28 : Project 4, part three*** 
 ![Screen Shot 2022-03-29 at 12 32 06 AM](https://user-images.githubusercontent.com/57606580/160540426-eb61355a-d2c4-4018-b1fb-15eee98209ea.png)
 
-<br />:heavy_check_mark: Day 29 : Project 5, part one
-<br />:heavy_check_mark: Day 30 : Project 5, part two
-<br />:heavy_check_mark: Day 31 : Project 5, part three
+<br />:heavy_check_mark: ***Day 29 : Project 5, part one*** 
+<br />:heavy_check_mark: ***Day 30 : Project 5, part two*** 
+<br />:heavy_check_mark: ***Day 31 : Project 5, part three*** 
 ![Screen Shot 2022-03-31 at 8 39 34 PM](https://user-images.githubusercontent.com/57606580/161178182-b7f6058e-d889-4407-9bc6-6a30776ac314.png)
 
-<br />:heavy_check_mark: Day 32 : Project 6, part one
-<br />:heavy_check_mark: Day 33 : Project 6, part two
+<br />:heavy_check_mark: ***Day 32 : Project 6, part one*** 
+<br />:heavy_check_mark: ***Day 33 : Project 6, part two*** 
 ![Screen Shot 2022-04-02 at 11 24 50 PM](https://user-images.githubusercontent.com/57606580/161411551-5ae2ae06-b734-4b97-9c2e-6cf897f1a122.png)
 
-<br />:heavy_check_mark: Day 34 : Project 6, part three
+<br />:heavy_check_mark: ***Day 34 : Project 6, part three*** 
 ![Screen Shot 2022-04-04 at 1 23 45 PM](https://user-images.githubusercontent.com/57606580/161658555-6235588f-33ea-4a9e-812e-a4ae2e1018c4.png)
 
  
 ## Day 35: Consolidation III
 Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
 
-<br />:heavy_check_mark: Day 35 : Milestone: Projects 4-6
+<br />:heavy_check_mark: ***Day 35 : Milestone: Projects 4-6*** 
  
 ## Days 36-46: Scaling up to bigger apps
 Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
-<br />:heavy_check_mark: Day 36 : Project 7, part one : iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
+<br />:heavy_check_mark: ***Day 36 : Project 7, part one***  : iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
 ![Screen Shot 2022-04-06 at 12 28 57 AM](https://user-images.githubusercontent.com/57606580/161902295-4a8df6b8-79a2-44f9-b327-36c07599f6f3.png)
 
-<br />:heavy_check_mark: Day 37 : Project 7, part two : Building a list we can delete from, Working with Identifiable items in SwiftUI, Sharing an observed object with a new view, Making changes permanent with UserDefaults and Final polish
+<br />:heavy_check_mark: ***Day 37 : Project 7, part two***  : Building a list we can delete from, Working with Identifiable items in SwiftUI, Sharing an observed object with a new view, Making changes permanent with UserDefaults and Final polish
 ![Screen Shot 2022-04-06 at 9 17 43 PM](https://user-images.githubusercontent.com/57606580/162107371-157d8db7-b4ec-4cc8-b013-0768993869ec.png)
 
-<br />:heavy_check_mark: Day 38 : Project 7, part three : iExpense: Wrap up and Review for Project 7: iExpense
+<br />:heavy_check_mark: ***Day 38 : Project 7, part three***  : iExpense: Wrap up and Review for Project 7: iExpense
 
-<br />:heavy_check_mark: Day 39 : Project 8, part one : Moonshot: Introduction, Resizing images to fit the screen using GeometryReader, How ScrollView lets us work with scrolling data, Pushing new views onto the stack using NavigationLink, Working with hierarchical Codable data and How to lay out views in a scrolling grid
+<br />:heavy_check_mark: ***Day 39 : Project 8, part one***  : Moonshot: Introduction, Resizing images to fit the screen using GeometryReader, How ScrollView lets us work with scrolling data, Pushing new views onto the stack using NavigationLink, Working with hierarchical Codable data and How to lay out views in a scrolling grid
  
-<br />:heavy_check_mark: Day 40 : Project 8, part two : Loading a specific kind of Codable data, Using generics to load any kind of Codable data and Formatting our mission view
+<br />:heavy_check_mark: ***Day 40 : Project 8, part two***  : Loading a specific kind of Codable data, Using generics to load any kind of Codable data and Formatting our mission view
 
-<br />:heavy_check_mark: Day 41 : Project 8, part three : Showing mission details with ScrollView and GeometryReader, Merging Codable structs and Finishing up with one last view
+<br />:heavy_check_mark: ***Day 41 : Project 8, part three***  : Showing mission details with ScrollView and GeometryReader, Merging Codable structs and Finishing up with one last view
 
-<br />:heavy_check_mark: Day 42 : Project 8, part four : Moonshot: Wrap up and Review for Project 8: Moonshot
+<br />:heavy_check_mark: ***Day 42 : Project 8, part four***  : Moonshot: Wrap up and Review for Project 8: Moonshot
 
-<br />:heavy_check_mark: Day 43 : Project 9, part one : Drawing: Introduction, Creating custom paths with SwiftUI, Paths vs shapes in SwiftUI and Adding strokeBorder() support with InsettableShape
+<br />:heavy_check_mark: ***Day 43 : Project 9, part one*** 
+- Drawing: Introduction
+- Creating custom paths with SwiftUI
+- Paths vs shapes in SwiftUI
+- Adding strokeBorder() support with InsettableShape
 
 - Day 44 : Project 9, part two : Transforming shapes using CGAffineTransform and even-odd fills, Creative borders and fills using ImagePaint and Enabling high-performance Metal rendering with drawingGroup()
 
