@@ -478,7 +478,7 @@ In this final project we cover some last tips and techniques to help you build g
 - SnowSeeker: Wrap up
 - Review for Project 19: SnowSeeker
 
-## Wrap up
+## Day 100 : Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 <br />:x: **Day 100 : Final exam**
 <br />:x: **logue : What now?**
