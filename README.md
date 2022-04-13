@@ -196,5 +196,5 @@ In this final project we cover some last tips and techniques to help you build g
 ## Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 
-:x: Day 100 – Final exam
-:x: Epilogue – What now?**
+<br />:x: Day 100 – Final exam
+<br />:x: Epilogue – What now?**
