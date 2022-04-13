@@ -227,20 +227,64 @@ You’ve tackled some heavyweight skills now, so before we move on it’s time t
 In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
 
 <br />:x: **Day 49 : Project 10, part one**
+- Cupcake Corner: Introduction
+- Adding Codable conformance for @Published properties
+- Sending and receiving Codable data with URLSession and SwiftUI
+- Loading an image from a remote server
+- Validating and disabling forms
+
 <br />:x: **Day 50 : Project 10, part two**
+- Taking basic order details
+- Checking for a valid address
+- Preparing for checkout
+
 <br />:x: **Day 51 : Project 10, part three**
+- Encoding an ObservableObject class
+- Sending and receiving orders over the internet
+
 <br />:x: **Day 52 : Project 10, part four**
+- Cupcake Corner: Wrap up
+- Review for Project 10: Cupcake Corner
+
 <br />:x: **Day 53 : Project 11, part one**
+- Bookworm: Introduction
+- Creating a custom component with @Binding
+- Accepting multi-line text input with TextEditor
+- How to combine Core Data and SwiftUI
+
 <br />:x: **Day 54 : Project 11, part two**
+- Creating books with Core Data
+- Adding a custom star rating component
+- Building a list with @FetchRequest
+
 <br />:x: **Day 55 : Project 11, part three**
+- Showing book details
+- Sorting fetch requests with SortDescriptor
+- Deleting from a Core Data fetch request
+- Using an alert to pop a NavigationLink programmatically
+
 <br />:x: **Day 56 : Project 11, part four**
+- Bookworm: Wrap up
+- Review for Project 11: Bookworm
+
 <br />:x: **Day 57 : Project 12, part one**
+- Core Data: Introduction
+- Why does \.self work for ForEach?
+- Creating NSManagedObject subclasses
+- Conditional saving of NSManagedObjectContext
+- Ensuring Core Data objects are unique using constraints
+
 <br />:x: **Day 58 : Project 12, part two**
+- Filtering @FetchRequest using NSPredicate
+- Dynamically filtering @FetchRequest with SwiftUI
+- One-to-many relationships with Core Data, SwiftUI, and @FetchRequest
+
 <br />:x: **Day 59 : Project 12, part three**
+- Core Data: Wrap up
+- Review for Project 12: Core Data
  
 ## Days 60-61: Consolidation V
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
-
 <br />:x: **Day 60 : Milestone: Projects 10-12**
 <br />:x: **Day 61 : Time for Core Data**
  
@@ -248,24 +292,77 @@ You’ve learned about data, data, and some more data, so it’s time to pause a
 In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
 
 <br />:x: **Day 62 : Project 13, part one**
+- Instafilter: Introduction
+- How property wrappers become structs
+- Responding to state changes using onChange()
+- Showing multiple options with confirmationDialog()
+
 <br />:x: **Day 63 : Project 13, part two**
+- Integrating Core Image with SwiftUI
+- Wrapping a UIViewController in a SwiftUI view
+
 <br />:x: **Day 64 : Project 13, part three**
+- Using coordinators to manage SwiftUI view controllers
+- How to save images to the user’s photo library
+
 <br />:x: **Day 65 : Project 13, part four**
+- Building our basic UI
+- Importing an image into SwiftUI using PHPickerViewController
+- Basic image filtering using Core Image
+- Need help? Tweet me @
+
 <br />:x: **Day 66 : Project 13, part five**
+- Customizing our filter using confirmationDialog()
+- Saving the filtered image using UIImageWriteToSavedPhotosAlbum()
+
 <br />:x: **Day 67 : Project 13, part six**
+- Instafilter: Wrap up
+- Review for Project 13: Instafilter
+
 <br />:x: **Day 68 : Project 14, part one**
+- Bucket List: Introduction
+- Adding conformance to Comparable for custom types
+- Writing data to the documents directory
+- Switching view states with enums
+
 <br />:x: **Day 69 : Project 14, part two**
+- Integrating MapKit with SwiftUI
+- Using Touch ID and Face ID with SwiftUI
+
 <br />:x: **Day 70 : Project 14, part three**
+- Adding user locations to a map
+- Improving our map annotations
+- Selecting and editing map annotations
+
 <br />:x: **Day 71 : Project 14, part four**
+- Downloading data from Wikipedia
+- Sorting Wikipedia results
+
 <br />:x: **Day 72 : Project 14, part five**
+- Introducing MVVM into your SwiftUI project
+- Locking our UI behind Face ID
+
 <br />:x: **Day 73 : Project 14, part six**
+- Bucket List: Wrap up
+- Review for Project 14: Bucket List
+
 <br />:x: **Day 74 : Project 15, part one**
+- Accessibility: Introduction
+- Identifying views with useful labels
+- Hiding and grouping accessibility data
+- Reading the value of controls
+
 <br />:x: **Day 75 : Project 15, part two**
+- Fixing Guess the Flag
+- Fixing Word Scramble
+- Fixing Bookworm
+
 <br />:x: **Day 76 : Project 15, part three**
+Accessibility: Wrap up
+Review for Project 15: Accessibility
  
 ## Days 77-78: Consolidation VI
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
-
 <br />:x: **Day 77 : Milestone: Projects 13-15**
 <br />:x: **Day 78 : Time for MapKit**
  
@@ -273,37 +370,115 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
 <br />:x: **Day 79 : Project 16, part one**
+- Hot Prospects: Introduction
+- Reading custom values from the environment with @EnvironmentObject
+- Creating tabs with TabView and tabItem()
+
 <br />:x: **Day 80 : Project 16, part two**
+- Manually publishing ObservableObject changes
+- Understanding Swift’s Result type
+- Controlling image interpolation in SwiftUI
+
 <br />:x: **Day 81 : Project 16, part three**
+- Creating context menus
+- Adding custom row swipe actions to a List
+- Scheduling local notifications
+- Adding Swift package dependencies in Xcode
+
 <br />:x: **Day 82 : Project 16, part four**
+- Building our tab bar
+- Sharing data across tabs using @EnvironmentObject
+- Dynamically filtering a SwiftUI List
+
 <br />:x: **Day 83 : Project 16, part five**
+- Generating and scaling up a QR code
+- Scanning QR codes with SwiftUI
+- Adding options with swipe actions
+
 <br />:x: **Day 84 : Project 16, part six**
+- Saving and loading data with UserDefaults
+- Adding a context menu to an image
+- Posting notifications to the lock screen
+
 <br />:x: **Day 85 : Project 16, part seven**
+- Hot Prospects: Wrap up
+- Review for Project 16: Hot Prospects
+
 <br />:x: **Day 86 : Project 17, part one**
+- Flashzilla: Introduction
+- How to use gestures in SwiftUI
+- Making vibrations with UINotificationFeedbackGenerator and Core Haptics
+- Disabling user interactivity with allowsHitTesting()
+
 <br />:x: **Day 87 : Project 17, part two**
+- Triggering events repeatedly using a timer
+- How to be notified when your SwiftUI app moves to the background
+- Supporting specific accessibility needs with SwiftUI
+
 <br />:x: **Day 88 : Project 17, part three**
+- Designing a single card view
+- Building a stack of cards
+- Moving views with DragGesture and offset()
+
 <br />:x: **Day 89 : Project 17, part four**
+- Coloring views as we swipe
+- Counting down with a Timer
+- Ending the app with allowsHitTesting()
+
 <br />:x: **Day 90 : Project 17, part five**
+- Making iPhones vibrate with UINotificationFeedbackGenerator
+- Fixing the bugs
+- Adding and deleting cards
+
 <br />:x: **Day 91 : Project 17, part six**
+- Flashzilla: Wrap up
+- Review for Project 17: Flashzilla
+
 <br />:x: **Day 92 : Project 18, part one**
+- Layout and geometry: Introduction
+- How layout works in SwiftUI
+- Alignment and alignment guides
+- How to create a custom alignment guide
+
 <br />:x: **Day 93 : Project 18, part two**
+Absolute positioning for SwiftUI views
+Understanding frames and coordinates inside GeometryReader
+ScrollView effects using GeometryReader
+
 <br />:x: **Day 94 : Project 18, part three**
+- Layout and geometry: Wrap up
+- Review for Project 18: Layout and geometry
  
 ## Days 95: Consolidation VII
 As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
-
 <br />:x: **Day 95 : Milestone: Projects 16-18**
  
 ## Days 96-99: One last project
 In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
 <br />:x: **Day 96 : Project 19, part one**
+- SnowSeeker: Introduction
+- Working with two side by side views in SwiftUI
+- Using alert() and sheet() with optionals
+- Using groups as transparent layout containers
+- Making a SwiftUI view searchable
+
 <br />:x: **Day 97 : Project 19, part two**
+- Building a primary list of items
+- Making NavigationView work in landscape
+- Creating a secondary view for NavigationView
+- Searching for data in a List
+
 <br />:x: **Day 98 : Project 19, part three**
+- Changing a view’s layout in response to size classes
+- Binding an alert to an optional string
+- Letting the user mark favorites
+
 <br />:x: **Day 99 : Project 19, part four**
- 
+- SnowSeeker: Wrap up
+- Review for Project 19: SnowSeeker
+
 ## Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
-
 <br />:x: **Day 100 : Final exam**
 <br />:x: **logue : What now?**
