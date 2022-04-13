@@ -27,24 +27,66 @@ You just learned a lot about Swift in only 14 days, so before we continue it's i
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
 <br />:heavy_check_mark: **Day 16 : Project 1, part one**
+- WeSplit: Introduction
+- Understanding the basic structure of a SwiftUI app
+- Creating a form
+- Adding a navigation bar
+- Modifying program state
+- Binding state to user interface controls
+- Creating views in a loop
+
 <br />:heavy_check_mark: **Day 17 : Project 1, part two** 
+- Reading text from the user with TextField
+- Creating pickers in a form
+- Adding a segmented control for tip percentages
+- Calculating the total per person
+- Hiding the keyboard
+
 <br />:heavy_check_mark: **Day 18 : Project 1, part three**
+- WeSplit: Wrap up
+- Review for Project 1: WeSplit
 ![Screen Shot 2022-03-19 at 12 36 37 AM](https://user-images.githubusercontent.com/57606580/159108757-d966bb2b-da4b-4b01-adad-e34714160948.png)
 
 <br />:heavy_check_mark: **Day 19 : Challenge day**
 ![Screen Shot 2022-03-29 at 12 34 32 AM](https://user-images.githubusercontent.com/57606580/160540461-4cc27004-00e7-4b77-a4dc-b91e83ffd1a6.png)
 
 <br />:heavy_check_mark: **Day 20 – Project 2, part one**
-- Day 21 – Project 2, part two
+- Guess the Flag: Introduction
+- Using stacks to arrange views
+- Colors and frames
+- Gradients
+- Buttons and images
+- Showing alert messages
+
+<br />:heavy_check_mark: **Day 21 – Project 2, part two**
+- Stacking up buttons
+- Showing the player’s score with an alert
+- Styling our flags
+- Upgrading our design
 ![Screen Shot 2022-03-21 at 11 44 47 PM](https://user-images.githubusercontent.com/57606580/159410031-5525bc78-f4a8-4597-ac03-d4787446dc6b.png)
 
 <br />:heavy_check_mark: **Day 22 : Project 2, part three**
+- Guess the Flag: Wrap up
+- Review for Project 2: Guess the Flag
+
 <br />:heavy_check_mark: **Day 23 : Project 3, part one**
+- Views and modifiers: Introduction
+- Why does SwiftUI use structs for views?
+- What is behind the main SwiftUI view?
+- Why modifier order matters
+- Why does SwiftUI use “some View” for its view type?
+- Conditional modifiers
+- Environment modifiers
+- Views as properties
+- View composition
+- Custom modifiers
+
 <br />:heavy_check_mark: **Day 24 : Project 3, part two**
+- Views and modifiers: Wrap up
+- Review for Project 3: Views and Modifiers
  
 ## Day 25: Consolidation II
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
-
 <br />:heavy_check_mark: **Day 25 : Milestone: Projects 1-3** 
 ![Screen Shot 2022-03-26 at 11 39 07 PM](https://user-images.githubusercontent.com/57606580/160267129-5c7acae6-db86-4910-9081-d1d62184c4ff.png)
  
@@ -52,25 +94,59 @@ In the last few days we covered some of the fundamentals of iOS development, and
 In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
 
 <br />:heavy_check_mark: **Day 26 : Project 4, part one** 
+- BetterRest: Introduction
+- Entering numbers with Stepper
+- Selecting dates and times with DatePicker
+- Working with dates
+- Training a model with Create ML
+
 <br />:heavy_check_mark: **Day 27 : Project 4, part two** 
+- Building a basic layout
+- Connecting SwiftUI to Core ML
+- Cleaning up the user interface
+
 <br />:heavy_check_mark: **Day 28 : Project 4, part three** 
+- BetterRest: Wrap up
+- Review for Project 4: BetterRest
 ![Screen Shot 2022-03-29 at 12 32 06 AM](https://user-images.githubusercontent.com/57606580/160540426-eb61355a-d2c4-4018-b1fb-15eee98209ea.png)
 
 <br />:heavy_check_mark: **Day 29 : Project 5, part one** 
+- Word Scramble: Introduction
+- Introducing List, your best friend
+- Loading resources from your app bundle
+- Working with strings
+
 <br />:heavy_check_mark: **Day 30 : Project 5, part two** 
+- Adding to a list of words
+- Running code when our app launches
+- Validating words with UITextChecker
+
 <br />:heavy_check_mark: **Day 31 : Project 5, part three** 
+- Word Scramble: Wrap up
+- Review for Project 5: Word Scramble
 ![Screen Shot 2022-03-31 at 8 39 34 PM](https://user-images.githubusercontent.com/57606580/161178182-b7f6058e-d889-4407-9bc6-6a30776ac314.png)
 
 <br />:heavy_check_mark: **Day 32 : Project 6, part one** 
+- Animation: Introduction
+- Creating implicit animations
+- Customizing animations in SwiftUI
+- Animating bindings
+- Creating explicit animations
+
 <br />:heavy_check_mark: **Day 33 : Project 6, part two** 
+- Controlling the animation stack
+- Animating gestures
+- Showing and hiding views with transitions
+- Building custom transitions using ViewModifier
 ![Screen Shot 2022-04-02 at 11 24 50 PM](https://user-images.githubusercontent.com/57606580/161411551-5ae2ae06-b734-4b97-9c2e-6cf897f1a122.png)
 
 <br />:heavy_check_mark: **Day 34 : Project 6, part three** 
+- Animation: Wrap up
+- Review for Project 6: Animation
 ![Screen Shot 2022-04-04 at 1 23 45 PM](https://user-images.githubusercontent.com/57606580/161658555-6235588f-33ea-4a9e-812e-a4ae2e1018c4.png)
 
 ## Day 35: Consolidation III
 Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
-
 <br />:heavy_check_mark: **Day 35 : Milestone: Projects 4-6** 
  
 ## Days 36-46: Scaling up to bigger apps
@@ -144,9 +220,6 @@ Your core SwiftUI skills are strong, so it’s time to push past the basics and 
 You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge. Creating a spirograph with SwiftUI
 
 <br />:x: **Day 47 : Milestone: Projects 7-9**
-- What you learned ? 
-- Key points
-- Challenge
 
 <br />:x: **Day 48 : Expanding your horizons**
  
