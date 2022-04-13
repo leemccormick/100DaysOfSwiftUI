@@ -7,8 +7,8 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-- Day 1 – variables, constants, strings, and numbers
-- Day 2 – Booleans, string interpolation, and checkpoint 1
+#### Day 1 – variables, constants, strings, and numbers
+#### Day 2 – Booleans, string interpolation, and checkpoint 1
 - Day 3 – Arrays, dictionaries, sets, and enums
 - Day 4 – type annotations and checkpoint 2
 - Day 5 – if, switch, and the ternary operator
@@ -49,7 +49,7 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 ## Day 25: Consolidation II
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
 
-- NEW: Day 25 – Milestone: Projects 1-3
+- Day 25 – Milestone: Projects 1-3
 ![Screen Shot 2022-03-26 at 11 39 07 PM](https://user-images.githubusercontent.com/57606580/160267129-5c7acae6-db86-4910-9081-d1d62184c4ff.png)
 
  
