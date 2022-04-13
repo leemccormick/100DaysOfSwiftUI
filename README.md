@@ -1,5 +1,5 @@
 # 100DaysOfSwiftUI By Paul Hudson
-Learning swiftUI will be helpful for my career as an iOS developer. I would like to take this course from Pual Hudson for 100 days to be good at SwiftUI.
+Learning swiftUI will be helpful for my career as an iOS developer. Thank you Pual Hudson for 100 days of SwiftUI.
 - https://www.hackingwithswift.com/100/swiftui
 
 ## Days 1-14: Introduction to Swift
