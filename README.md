@@ -191,10 +191,10 @@ In this final project we cover some last tips and techniques to help you build g
 - Day 96 – Project 19, part one
 - Day 97 – Project 19, part two
 - Day 98 – Project 19, part three
-- Day 99 – Project 19, part four
+:x: Day 99 – Project 19, part four
  
 ## Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 
-- Day 100 – Final exam
-- Epilogue – What now?**
+:x: Day 100 – Final exam
+:x: Epilogue – What now?**
