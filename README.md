@@ -21,7 +21,6 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
  
 ## Day 15: Consolidation I
 You just learned a lot about Swift in only 14 days, so before we continue it's important you reflect on what you've learned.
-
 <br />:heavy_check_mark: **Day 15 : Swift review**
  
 ## Days 16-24: Starting SwiftUI
