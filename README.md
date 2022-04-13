@@ -40,7 +40,7 @@ Now that you’ve mastered the basics of Swift, in these days you’ll start bui
 
 - Day 20 – Project 2, part one
 - Day 21 – Project 2, part two
-- ![Screen Shot 2022-03-21 at 11 44 47 PM](https://user-images.githubusercontent.com/57606580/159410031-5525bc78-f4a8-4597-ac03-d4787446dc6b.png)
+![Screen Shot 2022-03-21 at 11 44 47 PM](https://user-images.githubusercontent.com/57606580/159410031-5525bc78-f4a8-4597-ac03-d4787446dc6b.png)
 
 - Day 22 – Project 2, part three
 - Day 23 – Project 3, part one
