@@ -7,8 +7,8 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-#### Day 1 – variables, constants, strings, and numbers
-#### Day 2 – Booleans, string interpolation, and checkpoint 1
+- Day 1 – variables, constants, strings, and numbers
+- Day 2 – Booleans, string interpolation, and checkpoint 1
 - Day 3 – Arrays, dictionaries, sets, and enums
 - Day 4 – type annotations and checkpoint 2
 - Day 5 – if, switch, and the ternary operator
@@ -82,26 +82,36 @@ Now that your SwiftUI skills are starting to solidify, it’s time to review all
 ## Days 36-46: Scaling up to bigger apps
 Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
-- Day 36 – Project 7, part one ==> iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
+- Day 36 – Project 7, part one : iExpense: Introduction, Why @State only works with structs, Sharing SwiftUI state with @StateObject, Showing and hiding views, Deleting items using onDelete(), Storing user settings with UserDefaults and Archiving Swift objects with Codable
 ![Screen Shot 2022-04-06 at 12 28 57 AM](https://user-images.githubusercontent.com/57606580/161902295-4a8df6b8-79a2-44f9-b327-36c07599f6f3.png)
 
-- Day 37 – Project 7, part two ==> Building a list we can delete from, Working with Identifiable items in SwiftUI, Sharing an observed object with a new view, Making changes permanent with UserDefaults and Final polish
+- Day 37 – Project 7, part two : Building a list we can delete from, Working with Identifiable items in SwiftUI, Sharing an observed object with a new view, Making changes permanent with UserDefaults and Final polish
 ![Screen Shot 2022-04-06 at 9 17 43 PM](https://user-images.githubusercontent.com/57606580/162107371-157d8db7-b4ec-4cc8-b013-0768993869ec.png)
 
-- Day 38 – Project 7, part three
-- Day 39 – Project 8, part one
-- Day 40 – Project 8, part two
-- Day 41 – Project 8, part three
-- Day 42 – Project 8, part four
-- Day 43 – Project 9, part one
-- Day 44 – Project 9, part two
-- Day 45 – Project 9, part three
-- Day 46 – Project 9, part four
+- Day 38 – Project 7, part three : iExpense: Wrap up and Review for Project 7: iExpense
+
+- Day 39 – Project 8, part one : Moonshot: Introduction, Resizing images to fit the screen using GeometryReader, How ScrollView lets us work with scrolling data, Pushing new views onto the stack using NavigationLink, Working with hierarchical Codable data and How to lay out views in a scrolling grid
+ 
+- Day 40 – Project 8, part two : Loading a specific kind of Codable data, Using generics to load any kind of Codable data and Formatting our mission view
+
+- Day 41 – Project 8, part three : Showing mission details with ScrollView and GeometryReader, Merging Codable structs and Finishing up with one last view
+
+- Day 42 – Project 8, part four : Moonshot: Wrap up and Review for Project 8: Moonshot
+
+- Day 43 – Project 9, part one : Drawing: Introduction, Creating custom paths with SwiftUI, Paths vs shapes in SwiftUI and Adding strokeBorder() support with InsettableShape
+
+- Day 44 – Project 9, part two : Transforming shapes using CGAffineTransform and even-odd fills, Creative borders and fills using ImagePaint and Enabling high-performance Metal rendering with drawingGroup()
+
+- Day 45 – Project 9, part three : Special effects in SwiftUI: blurs, blending, and more, Animating simple shapes with animatableData and Animating complex shapes with AnimatablePair
+
+- Day 46 – Project 9, part four : Drawing: Wrap up and Review for Project 9: Drawing
  
 ## Days 47-48: Consolidation IV
-You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge.
+You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge. Creating a spirograph with SwiftUI
 
-- Day 47 – Milestone: Projects 7-9
+- Day 47 – Milestone: Projects 7-9 : What you learned
+Key points
+Challenge
 - Day 48 – Expanding your horizons
  
 ## Days 49-59: Focus on data
