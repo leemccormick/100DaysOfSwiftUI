@@ -7,20 +7,20 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
-- [x] Day 1 – variables, constants, strings, and numbers
-:heavy_check_mark: Day 2 – Booleans, string interpolation, and checkpoint 1
-- Day 3 – Arrays, dictionaries, sets, and enums
-- Day 4 – type annotations and checkpoint 2
-- Day 5 – if, switch, and the ternary operator
-- Day 6 – loops, summary, and checkpoint 3
-- Day 7 – functions, parameters, and return values
-- Day 8 – default values, throwing functions, and checkpoint 4
-- Day 9 – closures, passing functions into functions, and checkpoint 5
-- Day 10 – structs, computed properties, and property observers
-- Day 11 – access control, static properties and methods, and checkpoint 6
-- Day 12 – classes, inheritance, and checkpoint 7
-- Day 13 – protocols, extensions, and checkpoint 8
-- Day 14 – optionals, nil coalescing, and checkpoint 9
+<br />:heavy_check_mark: Day 1 – variables, constants, strings, and numbers
+<br />:heavy_check_mark: Day 2 – Booleans, string interpolation, and checkpoint 1
+<br />:heavy_check_mark: Day 3 – Arrays, dictionaries, sets, and enums
+<br />:heavy_check_mark: Day 4 – type annotations and checkpoint 2
+<br />:heavy_check_mark: Day 5 – if, switch, and the ternary operator
+<br />:heavy_check_mark: Day 6 – loops, summary, and checkpoint 3
+<br />:heavy_check_mark: Day 7 – functions, parameters, and return values
+<br />:heavy_check_mark: Day 8 – default values, throwing functions, and checkpoint 4
+<br />:heavy_check_mark: Day 9 – closures, passing functions into functions, and checkpoint 5
+<br />:heavy_check_mark: Day 10 – structs, computed properties, and property observers
+<br />:heavy_check_mark: Day 11 – access control, static properties and methods, and checkpoint 6
+<br />:heavy_check_mark: Day 12 – classes, inheritance, and checkpoint 7
+<br />:heavy_check_mark: Day 13 – protocols, extensions, and checkpoint 8
+<br />:heavy_check_mark: Day 14 – optionals, nil coalescing, and checkpoint 9
  
 ## Day 15: Consolidation I
 You just learned a lot about Swift in only 14 days, so before we continue it's important you reflect on what you've learned.
