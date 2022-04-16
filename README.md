@@ -186,33 +186,39 @@ Your core SwiftUI skills are strong, so it’s time to push past the basics and 
 - Loading a specific kind of Codable data  
 - Using generics to load any kind of Codable data  
 - Formatting our mission view
+![Day40](https://user-images.githubusercontent.com/57606580/163662928-1627f9f2-0490-450d-8b91-9d1051413ed5.png)
 
 <br />:heavy_check_mark: **Day 41 : Project 8, part three**  
 - Showing mission details with ScrollView and GeometryReader  
 - Merging Codable structs  
 - Finishing up with one last view
+![Day41](https://user-images.githubusercontent.com/57606580/163662932-ad706767-9a78-4631-9d23-6529ab4c958d.png)
 
 <br />:heavy_check_mark: **Day 42 : Project 8, part four**  
 - Moonshot: Wrap up  
 - Review for Project 8: Moonshot
+![Day42](https://user-images.githubusercontent.com/57606580/163662930-519a5713-9423-4f59-838d-4354abeba505.png)
 
 <br />:heavy_check_mark: **Day 43 : Project 9, part one** 
 - Drawing: Introduction
 - Creating custom paths with SwiftUI
 - Paths vs shapes in SwiftUI
 - Adding strokeBorder() support with InsettableShape
+![Day43](https://user-images.githubusercontent.com/57606580/163662931-1fea3869-3885-4d9d-babd-f954294699d6.png)
 
 <br />:heavy_check_mark: **Day 44 : Project 9, part two**
 - Transforming shapes using CGAffineTransform and even-odd fills
 - Creative borders and fills using ImagePaint
 - Enabling high-performance Metal rendering with drawingGroup()
+![Day44](https://user-images.githubusercontent.com/57606580/163662927-7424a049-cf71-412b-a941-23b71a6e1114.png)
 
-<br />:x: **Day 45 : Project 9, part three** 
+<br />:heavy_check_mark: **Day 45 : Project 9, part three** 
 - Special effects in SwiftUI: blurs, blending, and more
 - Animating simple shapes with animatableData 
 - Animating complex shapes with AnimatablePair
+![Day45](https://user-images.githubusercontent.com/57606580/163662929-6e3ff737-0ee3-40ab-9980-b3a5c0469192.png)
 
-<br />:x: **Day 46 : Project 9, part four** 
+<br />:heavy_check_mark: **Day 46 : Project 9, part four** 
 - Drawing: Wrap up
 - Review for Project 9: Drawing
  
