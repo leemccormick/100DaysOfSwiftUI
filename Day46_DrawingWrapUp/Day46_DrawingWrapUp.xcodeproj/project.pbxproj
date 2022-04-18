@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B288B221280B283B00541A03 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288B220280B283B00541A03 /* ArrowView.swift */; };
+		B288B223280B288500541A03 /* ColorCyclingRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288B222280B288500541A03 /* ColorCyclingRectangleView.swift */; };
 		B2B5F7E1280A9200002F4564 /* Day46_DrawingWrapUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5F7E0280A9200002F4564 /* Day46_DrawingWrapUpApp.swift */; };
 		B2B5F7E3280A9200002F4564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5F7E2280A9200002F4564 /* ContentView.swift */; };
 		B2B5F7E5280A920B002F4564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B5F7E4280A920B002F4564 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B288B220280B283B00541A03 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		B288B222280B288500541A03 /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
 		B2B5F7DD280A9200002F4564 /* Day46_DrawingWrapUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day46_DrawingWrapUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B5F7E0280A9200002F4564 /* Day46_DrawingWrapUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day46_DrawingWrapUpApp.swift; sourceTree = "<group>"; };
 		B2B5F7E2280A9200002F4564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				B2B5F7E2280A9200002F4564 /* ContentView.swift */,
 				B2B5F7E4280A920B002F4564 /* Assets.xcassets */,
 				B2B5F7E6280A920B002F4564 /* Preview Content */,
+				B288B220280B283B00541A03 /* ArrowView.swift */,
+				B288B222280B288500541A03 /* ColorCyclingRectangleView.swift */,
 			);
 			path = Day46_DrawingWrapUp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				B2B5F7E3280A9200002F4564 /* ContentView.swift in Sources */,
 				B2B5F7E1280A9200002F4564 /* Day46_DrawingWrapUpApp.swift in Sources */,
+				B288B223280B288500541A03 /* ColorCyclingRectangleView.swift in Sources */,
+				B288B221280B283B00541A03 /* ArrowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

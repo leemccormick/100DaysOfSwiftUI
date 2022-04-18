@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct MutiplyQuestion : Hashable {
-   // var numberOfQuestions = 5
- //   var levelSelection = 2
     let correctAnswer: Int
-   // var userAnser = 0
-    let firstNum : Int//= Int.random(in: 1...12)
-    let secondNum : Int//= Int.random(in: 2...)
-
+    let firstNum : Int
+    let secondNum : Int
+    var userAnswer: Int = 0
+    var didAnswer = false
+    var questionItem = 0
+    var isUserCorrect = false
 }
 
 struct ContentView: View {
-    
+    // Clear Color for List
     init() {
         UITableView.appearance().separatorStyle = .none
         UITableView.appearance().backgroundColor = UIColor.clear
@@ -28,33 +28,41 @@ struct ContentView: View {
         UITableViewCell.appearance().backgroundView = nil
     }
     
+    // Properties For Views
     @State private var numberOfDifficulty = 2
     @State private var numberOfQuestion = 5
     @State private var numberOfQuestions = [5, 10, 15, 20]
-    @State private var score = 0
-    @State private var answer = "0"
-    @State private var questions = [MutiplyQuestion(correctAnswer: 0, firstNum: 0, secondNum: 0)]
-    @State private var correctAnswers : [Int] = []
-    @State private var currentQuestion = 0
-
-    
-    let letters = Array("EDUTAINMENT")
-    @State private var enabled = false
     @State private var dragAmount = CGSize.zero
+    @State private var gameTextDetail = "Enjoy Edutainment !"
+    @State private var showCircleDetail = false
+    @State private var animationAmountCircleDetail = 0.0
+    let letters = Array("EDUTAINMENT")
     
+    // Properties For Game Logic
+    @State private var score = 0
+    @State private var answer = ""
+    @State private var currentQuestion = 0
+    @State private var isPlayingGame = false
+    @State private var questions = [MutiplyQuestion(correctAnswer: 0, firstNum: 0, secondNum: 0)]
+    @State private var listOfDidAnsweredQuestions = [MutiplyQuestion(correctAnswer: 0, firstNum: 0, secondNum: 0)]
     
     var body: some View {
         ZStack {
             AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .orange]), center: .center)
                 .ignoresSafeArea()
             
+            // Top Views With Start Game Buttton and Edutainment Title
             VStack {
                 HStack {
-                    Button("Start Game") {
-                        createQuestions(levelSelection: numberOfDifficulty, numberOfQuestion: numberOfQuestion)
+                    Button(isPlayingGame ? "End Game" : "Start Game") {
+                        if isPlayingGame {
+                            endGame()
+                        } else {
+                            startGame(levelSelection: numberOfDifficulty, numberOfQuestion: numberOfQuestion)
+                        }
                     }
                     .frame(width: 80, height: 80)
-                    .background(enabled ? .orange : .pink)
+                    .background(isPlayingGame ? .orange : .pink)
                     .foregroundColor(.white)
                     .font(.headline)
                     .shadow(color: .brown, radius: 1, x: 1, y: 1)
@@ -64,7 +72,7 @@ struct ContentView: View {
                         Text(String(letters[num]))
                             .padding(3)
                             .font(.title)
-                            .background(enabled ? .yellow : .red)
+                            .background(isPlayingGame ? .yellow : .red)
                             .offset(dragAmount)
                             .animation(.default.delay(Double(num) / 20), value: dragAmount)
                     }
@@ -74,175 +82,222 @@ struct ContentView: View {
                             .onChanged { dragAmount = $0.translation }
                             .onEnded { _ in
                                 dragAmount = .zero
-                                enabled.toggle()
                             }
                     )
                 }
                 .padding(10)
-                VStack {
-                    VStack(alignment: .center, spacing: 20)
-                    {
-                        
-                        HStack {
-                            Image(systemName: "\(numberOfDifficulty).circle")
-                                .foregroundColor(.gray)
-                                .frame(width: 50, height: 50, alignment: .center)
-                                .font(.largeTitle)
-                            //.shadow(color: .brown, radius: 1, x: 1, y: 1)
-                                .background(.white)
-                                .cornerRadius(360)
-                            
-                            Text("Levels Of Mutiplication :")
-                                .foregroundColor(.white)
-                                .font(.headline)
-                                .bold()
-                                .shadow(color: .brown, radius: 1, x: 1, y: 1)
-                            Stepper("Multiple up to \(numberOfDifficulty)", value: $numberOfDifficulty, in: 2...12, step: 1)
-                                .labelsHidden()
-                                .foregroundColor(.white)
-                                .tint(.white)
+                
+                // Game Setting Views With Stepper and Picker
+                if !isPlayingGame { // Hide Game Setting when user is playing game.
+                    VStack {
+                        VStack(alignment: .center, spacing: 20)
+                        {
+                            HStack {
+                                Image(systemName: "\(numberOfDifficulty).circle")
+                                    .foregroundColor(.gray)
+                                    .frame(width: 50, height: 50, alignment: .center)
+                                    .font(.largeTitle)
+                                    .background(.white)
+                                    .cornerRadius(360)
+                                
+                                Text("Levels Of Mutiplication :")
+                                    .foregroundColor(.white)
+                                    .font(.headline)
+                                    .bold()
+                                    .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                                Stepper("Multiple up to \(numberOfDifficulty)", value: $numberOfDifficulty, in: 2...12, step: 1)
+                                    .labelsHidden()
+                                    .foregroundColor(.white)
+                                    .tint(.white)
+                                    .background(.white)
+                                    .cornerRadius(10)
+                            }
+                            HStack {
+                                Image(systemName: "\(numberOfQuestion).circle")
+                                    .foregroundColor(.gray)
+                                    .frame(width: 50, height: 50, alignment: .center)
+                                    .font(.largeTitle)
+                                    .background(.white)
+                                    .cornerRadius(360)
+                                Text("Questions : ")
+                                    .foregroundColor(.white)
+                                    .font(.headline)
+                                    .bold()
+                                    .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                                Picker("Number Of Questions : ", selection: $numberOfQuestion) {
+                                    ForEach (numberOfQuestions, id: \.self) {
+                                        Text($0, format: .number)
+                                    }
+                                }
+                                .pickerStyle(.segmented)
+                                .foregroundColor(.brown)
+                                .tint(.red)
                                 .background(.white)
                                 .cornerRadius(10)
-                        }
-                        HStack {
-                            Image(systemName: "\(numberOfQuestion).circle")
-                                .foregroundColor(.gray)
-                                .frame(width: 50, height: 50, alignment: .center)
-                                .font(.largeTitle)
-                                .background(.white)
-                                .cornerRadius(360)
-                            Text("Questions : ")
-                                .foregroundColor(.white)
-                                .font(.headline)
-                                .bold()
-                                .shadow(color: .brown, radius: 1, x: 1, y: 1)
-                            Picker("Number Of Questions : ", selection: $numberOfQuestion) {
-                                ForEach (numberOfQuestions, id: \.self) {
-                                    Text($0, format: .number)
-                                }
                             }
-                            .pickerStyle(.segmented)
-                            .foregroundColor(.brown)
-                            .tint(.red)
+                        }
+                        .padding(20)
+                    }
+                }
+                
+                // Question View With 2 Number Text For Multiply Game
+                if isPlayingGame { // Show Question when user is playing game
+                    HStack {
+                        Text(currentQuestion > questions.count - 1 ? "0" : "\(questions[currentQuestion].firstNum)")
+                            .foregroundColor(.blue)
+                            .font(.largeTitle)
+                            .bold()
+                            .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                            .frame(width: 60, height: 60, alignment: .center)
                             .background(.white)
                             .cornerRadius(10)
+                        
+                        Image(systemName: "multiply")
+                            .foregroundColor(.blue)
+                            .frame(width: 50, height: 50, alignment: .center)
+                            .font(.largeTitle)
+                            .background(.white)
+                            .cornerRadius(10)
+                            .padding(40)
+                        
+                        Text(currentQuestion > questions.count - 1  ? "0" : "\(questions[currentQuestion].secondNum)")
+                            .foregroundColor(.blue)
+                            .font(.largeTitle)
+                            .bold()
+                            .shadow(color: .brown, radius: 1, x: 1, y: 1)
+                            .frame(width: 60, height: 60, alignment: .center)
+                            .background(.white)
+                            .cornerRadius(10)
+                    }
+                    
+                    // Answer TextField using onCommit when done editing
+                    TextField("ANSWER", text: $answer)
+                        .frame(width: 200, height: 50, alignment: .center)
+                        .foregroundColor(.brown)
+                        .keyboardType(.numberPad)
+                        .background(.white)
+                        .cornerRadius(10)
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                    
+                    // Show Score Views with  List of questions and score
+                    List {
+                        // Score Detail
+                        Text("Score : \(score) of \(numberOfQuestion)")
+                            .font(.title)
+                            .bold()
+                            .frame(width: 300, height: 40, alignment: .center)
+                            .foregroundColor(.gray)
+                        
+                        if !questions.isEmpty {
+                            ForEach (listOfDidAnsweredQuestions, id: \.self) { q in
+                                if q.didAnswer {
+                                    HStack {
+                                        // User Answer Detail
+                                        Image(systemName: "questionmark.square")
+                                            .foregroundColor(.gray)
+                                        Image(systemName: "\(q.questionItem).square")
+                                            .foregroundColor(.gray)
+                                        Image(systemName: q.isUserCorrect ? "checkmark.circle" : "x.circle" )
+                                            .foregroundColor(q.isUserCorrect ? .green : .red)
+                                        Text("\(q.firstNum) x \(q.secondNum) = ")
+                                            .foregroundColor(q.isUserCorrect ? .green : .red)
+                                        Text(q.userAnswer, format: .number)
+                                            .foregroundColor(q.isUserCorrect ? .green : .red)
+                                        
+                                        Text("|")
+                                            .foregroundColor(.gray)
+                                            .font(.subheadline)
+                                            .bold()
+                                        
+                                        // Correct Answer Detail
+                                        Image(systemName: "checkmark.circle")
+                                            .foregroundColor(.green)
+                                        Text("\(q.firstNum) x \(q.secondNum) = ")
+                                            .foregroundColor(.green)
+                                        Text("\(q.correctAnswer)")
+                                            .foregroundColor(.green)
+                                    }
+                                }
+                            }
                         }
                     }
-                    .padding(20)
-                    
-                }
-                
-                HStack {
-                    Text("\(questions[currentQuestion].firstNum)")
-                        .foregroundColor(.blue)
-                        .font(.largeTitle)
-                        .bold()
-                        .shadow(color: .brown, radius: 1, x: 1, y: 1)
-                        .frame(width: 60, height: 60, alignment: .center)
-                        .background(.white)
-                        .cornerRadius(10)
-                    
-                    Image(systemName: "multiply")
-                        .foregroundColor(.blue)
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .font(.largeTitle)
-                    //.shadow(color: .brown, radius: 1, x: 1, y: 1)
-                        .background(.white)
-                        .cornerRadius(10)
-                        .padding(40)
-                    
-                    Text("\(questions[currentQuestion].secondNum)")
-                        .foregroundColor(.blue)
-                        .font(.largeTitle)
-                        .bold()
-                        .shadow(color: .brown, radius: 1, x: 1, y: 1)
-                        .frame(width: 60, height: 60, alignment: .center)
-                        .background(.white)
-                        .cornerRadius(10)
-                    
-                    
-                }
-                
-                
-                
-                
-                TextField("ANSWER", text: $answer)
-                    .frame(width: 200, height: 50, alignment: .center)
-                    .foregroundColor(.brown)
-                    .keyboardType(.numberPad)
-                    .background(.white)
                     .cornerRadius(10)
-                    .font(.title)
-                    .multilineTextAlignment(.center)
-                
-                
-                List {
-                    
-                    Text("Score : \(score) of \(numberOfQuestion)")
-                        .font(.subheadline)
-                        .bold()
-                        .frame(width: 300, height: 40, alignment: .center)
-                    
-                    
-                    // .background(.yellow)
-                    //  .cornerRadius(10)
-                    
-                    ForEach (questions, id: \.self) { q in
-                        HStack {
-                            Image(systemName: "questionmark.square")
-                                .foregroundColor(.gray)
-                            Image(systemName: "20.square")
-                                .foregroundColor(.gray)
-                            
-                            
-                            
-                            Image(systemName: "x.circle")
-                                .foregroundColor(.red)
-                            
-                            Text("7 x 8 = ")
-                                .foregroundColor(.red)
-                            Text(answer)
-                            //Image(systemName: "1.circle")
-                            //  Image(systemName: "checkmark.circle")
-                                .foregroundColor(.red)
-                            
-                            Text("|")
-                                .foregroundColor(.gray)
-                                .font(.subheadline)
-                                .bold()
-                            Image(systemName: "checkmark.circle")
-                                .foregroundColor(.green)
-                            Text("7 x 8 = ")
-                                .foregroundColor(.green)
-                            Text("56")
-                                .foregroundColor(.green)
-                            //Image(systemName: "1.circle")
-                            
-                            // Image(systemName: "x.circle")
-                            //   .foregroundColor(.red)
-                            
+                } else { // If user is not  playing game then show game detail and last score.
+                    if showCircleDetail {
+                        ZStack {
+                            Rectangle()
+                                .frame(width: 300, height: 100, alignment: .center)
+                                .cornerRadius(10)
+                            VStack {
+                                Text("GAME OVER !")
+                                    .frame(width: 250, height: 40, alignment: .center)
+                                    .foregroundColor(.white)
+                                    .font(.title.bold())
+                                Text("\(gameTextDetail)")
+                                    .frame(width: 250, height: 40, alignment: .center)
+                                    .foregroundColor(.white)
+                                    .font(.headline.bold())
+                            }
+                        }
+                        .onTapGesture {
+                            showCircleDetail = false
                         }
                     }
-                    
                 }
-                .cornerRadius(10)
-                
             }
         }
+        .onSubmit(continuteGame)
     }
     
-    func createQuestions(levelSelection: Int, numberOfQuestion: Int) {
+    func startGame(levelSelection: Int, numberOfQuestion: Int) {
+        endGame()
+        var index = 1
+        for _ in 1...numberOfQuestion {
+            var firstNum = Int.random(in: 1...12)
+            var secondNum = Int.random(in: 2...levelSelection)
+            
+            for q in questions {
+                if q.firstNum == firstNum {
+                    firstNum = Int.random(in: 1...12)
+                }
+                if q.secondNum == secondNum {
+                    secondNum = Int.random(in: 2...levelSelection)
+                }
+            }
+            
+            let newQuestion = MutiplyQuestion(correctAnswer: firstNum*secondNum, firstNum: firstNum, secondNum: secondNum, questionItem: index)
+            questions.append(newQuestion)
+            index += 1
+        }
+        isPlayingGame = true
+        showCircleDetail = false
+    }
+    
+    func endGame() {
+        isPlayingGame = false
         questions = []
         currentQuestion = 0
         score = 0
-        for _ in 1...numberOfQuestion {
-            let firstNum = Int.random(in: 1...12)
-            let secondNum = Int.random(in: 2...levelSelection)
-            let newQuestion = MutiplyQuestion(correctAnswer: firstNum*secondNum, firstNum: firstNum, secondNum: secondNum)
-            questions.append(newQuestion)
+        answer = ""
+    }
+    
+    func continuteGame() {
+        listOfDidAnsweredQuestions = []
+        questions[currentQuestion].didAnswer = true
+        questions[currentQuestion].userAnswer = Int(answer) ?? 0
+        if questions[currentQuestion].correctAnswer ==  questions[currentQuestion].userAnswer {
+            questions[currentQuestion].isUserCorrect = true
+            score += 1
         }
-        print("question count : \(questions.count)")
-        print("question  : \(questions)")
+        currentQuestion += 1
+        answer = ""
+        if currentQuestion > questions.count - 1 {
+            gameTextDetail = "Your score is : \(score) out of \(questions.count). "
+            showCircleDetail = true
+            endGame()
+        }
+        listOfDidAnsweredQuestions = questions.reversed()
     }
 }
 
