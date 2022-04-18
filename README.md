@@ -148,6 +148,8 @@ In these next three projects we’re going to develop your SwiftUI skills in new
 ## Day 35: Consolidation III
 Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
 <br />:heavy_check_mark: **Day 35 : Milestone: Projects 4-6** 
+![Day35](https://user-images.githubusercontent.com/57606580/163738285-ec84127f-cd9d-437e-890e-e743824eff16.png)
+
  
 ## Days 36-46: Scaling up to bigger apps
 Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
@@ -221,6 +223,7 @@ Your core SwiftUI skills are strong, so it’s time to push past the basics and 
 <br />:heavy_check_mark: **Day 46 : Project 9, part four** 
 - Drawing: Wrap up
 - Review for Project 9: Drawing
+![Day46](https://user-images.githubusercontent.com/57606580/163738282-00d605b1-b612-4d6c-9be8-9d17859cb525.png)
  
 ## Days 47-48: Consolidation IV
 You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge. Creating a spirograph with SwiftUI
