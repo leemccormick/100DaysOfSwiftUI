@@ -228,10 +228,10 @@ Your core SwiftUI skills are strong, so it’s time to push past the basics and 
 ## Days 47-48: Consolidation IV
 You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge. Creating a spirograph with SwiftUI
 
-<br />:x: **Day 47 : Milestone: Projects 7-9**
+<br />:heavy_check_mark: **Day 47 : Milestone: Projects 7-9**
 ![Screen Shot 2022-04-18 at 11 05 54 PM](https://user-images.githubusercontent.com/57606580/163918434-715bb6cd-2f22-4198-8ae4-affb082b1ba1.png)
 
-<br />:x: **Day 48 : Expanding your horizons**
+<br />:heavy_check_mark: **Day 48 : Expanding your horizons**
  
 ## Days 49-59: Focus on data
 In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
