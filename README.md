@@ -232,25 +232,29 @@ You’ve tackled some heavyweight skills now, so before we move on it’s time t
 ![Screen Shot 2022-04-18 at 11 05 54 PM](https://user-images.githubusercontent.com/57606580/163918434-715bb6cd-2f22-4198-8ae4-affb082b1ba1.png)
 
 <br />:heavy_check_mark: **Day 48 : Expanding your horizons**
+![Day48](https://user-images.githubusercontent.com/57606580/164376859-9d6b6a67-a205-4f34-bf69-9e6f30b8dddd.png)
  
 ## Days 49-59: Focus on data
 In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
 
-<br />:x: **Day 49 : Project 10, part one**
+<br />:heavy_check_mark: **Day 49 : Project 10, part one**
 - Cupcake Corner: Introduction
 - Adding Codable conformance for @Published properties
 - Sending and receiving Codable data with URLSession and SwiftUI
 - Loading an image from a remote server
 - Validating and disabling forms
+![Day49](https://user-images.githubusercontent.com/57606580/164376860-f53ad20f-dfc4-4b3c-ab69-057a224b21cd.png)
 
-<br />:x: **Day 50 : Project 10, part two**
+<br />:heavy_check_mark: **Day 50 : Project 10, part two**
 - Taking basic order details
 - Checking for a valid address
 - Preparing for checkout
+![Day50](https://user-images.githubusercontent.com/57606580/164376862-87ef67d5-b4ff-4a86-93dd-8008e556192f.png)
 
-<br />:x: **Day 51 : Project 10, part three**
+<br />:heavy_check_mark: **Day 51 : Project 10, part three**
 - Encoding an ObservableObject class
 - Sending and receiving orders over the internet
+![Day51](https://user-images.githubusercontent.com/57606580/164376856-c17ba755-70e8-427f-9e7b-aef0d6b40c98.png)
 
 <br />:x: **Day 52 : Project 10, part four**
 - Cupcake Corner: Wrap up
