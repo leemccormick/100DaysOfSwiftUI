@@ -256,30 +256,37 @@ In these projects we’re going to start looking more carefully at how we can se
 - Sending and receiving orders over the internet
 ![Day51](https://user-images.githubusercontent.com/57606580/164376856-c17ba755-70e8-427f-9e7b-aef0d6b40c98.png)
 
-<br />:x: **Day 52 : Project 10, part four**
+<br />:heavy_check_mark: **Day 52 : Project 10, part four**
 - Cupcake Corner: Wrap up
 - Review for Project 10: Cupcake Corner
+![Day52](https://user-images.githubusercontent.com/57606580/165225632-436777d9-1113-42ae-84a4-6a2af6dcf88e.png)
 
-<br />:x: **Day 53 : Project 11, part one**
+
+<br />:heavy_check_mark: **Day 53 : Project 11, part one**
 - Bookworm: Introduction
 - Creating a custom component with @Binding
 - Accepting multi-line text input with TextEditor
 - How to combine Core Data and SwiftUI
+![Day53](https://user-images.githubusercontent.com/57606580/165225625-dcb1c238-fdd4-461a-97ae-9904344d2f36.png)
 
-<br />:x: **Day 54 : Project 11, part two**
+
+<br />:heavy_check_mark: **Day 54 : Project 11, part two**
 - Creating books with Core Data
 - Adding a custom star rating component
 - Building a list with @FetchRequest
+![Day54](https://user-images.githubusercontent.com/57606580/165225614-7cca9eee-673b-43e5-a53f-ab2be244ebed.png)
 
-<br />:x: **Day 55 : Project 11, part three**
+<br />:heavy_check_mark: **Day 55 : Project 11, part three**
 - Showing book details
 - Sorting fetch requests with SortDescriptor
 - Deleting from a Core Data fetch request
 - Using an alert to pop a NavigationLink programmatically
+![Day55](https://user-images.githubusercontent.com/57606580/165225638-67ca4760-f65b-43a6-ad9f-6e05709edb1d.png)
 
-<br />:x: **Day 56 : Project 11, part four**
+<br />:heavy_check_mark: **Day 56 : Project 11, part four**
 - Bookworm: Wrap up
 - Review for Project 11: Bookworm
+![Day56](https://user-images.githubusercontent.com/57606580/165225643-1b5d00b3-dee2-440f-9785-90d6a4a74742.png)
 
 <br />:x: **Day 57 : Project 12, part one**
 - Core Data: Introduction
