@@ -18,7 +18,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            Form {
                 NavigationLink {
                     NSPredicateView()
                 } label: {
@@ -62,6 +62,7 @@ struct ContentView: View {
                 }
                 Text("Select an item")
             }
+            .navigationTitle("Day58 : CoreData Part2")
         }
     }
     
