@@ -288,21 +288,25 @@ In these projects we’re going to start looking more carefully at how we can se
 - Review for Project 11: Bookworm
 ![Day56](https://user-images.githubusercontent.com/57606580/165225643-1b5d00b3-dee2-440f-9785-90d6a4a74742.png)
 
-<br />:x: **Day 57 : Project 12, part one**
+<br />:heavy_check_mark: **Day 57 : Project 12, part one**
 - Core Data: Introduction
 - Why does \.self work for ForEach?
 - Creating NSManagedObject subclasses
 - Conditional saving of NSManagedObjectContext
 - Ensuring Core Data objects are unique using constraints
+![day57](https://user-images.githubusercontent.com/57606580/167348857-f17fd981-e3e0-460d-b01a-d070b3ae3913.png)
 
-<br />:x: **Day 58 : Project 12, part two**
+<br />:heavy_check_mark: **Day 58 : Project 12, part two**
 - Filtering @FetchRequest using NSPredicate
 - Dynamically filtering @FetchRequest with SwiftUI
 - One-to-many relationships with Core Data, SwiftUI, and @FetchRequest
+![Screen Shot 2022-05-09 at 12 52 57 AM](https://user-images.githubusercontent.com/57606580/167348848-6df39cc4-e039-43b6-97dc-ae4fbb592eb2.png)
 
-<br />:x: **Day 59 : Project 12, part three**
+<br />:heavy_check_mark: **Day 59 : Project 12, part three**
 - Core Data: Wrap up
 - Review for Project 12: Core Data
+![Screen Shot 2022-05-10 at 9 23 28 PM](https://user-images.githubusercontent.com/57606580/167756338-e570091f-d316-445e-aad1-e3438268334b.png)
+
  
 ## Days 60-61: Consolidation V
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
