@@ -18,6 +18,7 @@ struct FilteredList<T: NSManagedObject, Content: View>: View {
     init(filterKey: String, filterValue: String, @ViewBuilder content: @escaping (T) -> Content) {
         // @ViewBuilder lets our containing view (whatever is using the list) send in multiple views if they want.
         // @escaping says the closure will be stored away and used later, which means Swift needs to take care of its memory.
+        // To resolve this, NSPredicate has a special symbol that can be used to replace attribute names: %K, for “key”. This will insert values we provide, but won’t add quote marks around them. The correct predicate is this:
         _fetchRequest = FetchRequest<T>(sortDescriptors: [], predicate: NSPredicate(format: "%K BEGINSWITH %@", filterKey, filterValue))
         self.content = content
     }

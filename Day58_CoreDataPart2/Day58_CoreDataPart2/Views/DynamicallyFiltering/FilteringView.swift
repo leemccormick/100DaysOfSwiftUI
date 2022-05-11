@@ -15,7 +15,7 @@ struct FilteringView: View { // That will store our fetch request, so that we ca
         VStack {
         Text("Dynamically filtering @FetchRequest with SwiftUI")
             .font(.title.bold())
-           //  FilteredList(filter: lastNameFilter)
+            //  FilteredList(filter: lastNameFilter)
             FilteredList(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in  // Notice how I’ve specifically used (singer: Singer) as the closure’s parameter – this is required so that Swift understands how FilteredList is being used. Remember, we said it could be any type of NSManagedObject, but in order for Swift to know exactly what type of managed object it is we need to be explicit.
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
