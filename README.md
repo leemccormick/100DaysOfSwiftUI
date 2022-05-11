@@ -302,9 +302,11 @@ In these projects we’re going to start looking more carefully at how we can se
 - One-to-many relationships with Core Data, SwiftUI, and @FetchRequest
 ![Screen Shot 2022-05-09 at 12 52 57 AM](https://user-images.githubusercontent.com/57606580/167348848-6df39cc4-e039-43b6-97dc-ae4fbb592eb2.png)
 
-<br />:x: **Day 59 : Project 12, part three**
+<br />:heavy_check_mark: **Day 59 : Project 12, part three**
 - Core Data: Wrap up
 - Review for Project 12: Core Data
+![Screen Shot 2022-05-10 at 9 23 28 PM](https://user-images.githubusercontent.com/57606580/167756338-e570091f-d316-445e-aad1-e3438268334b.png)
+
  
 ## Days 60-61: Consolidation V
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
