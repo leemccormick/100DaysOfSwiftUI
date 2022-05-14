@@ -310,8 +310,11 @@ In these projects we’re going to start looking more carefully at how we can se
  
 ## Days 60-61: Consolidation V
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
-<br />:x: **Day 60 : Milestone: Projects 10-12**
-<br />:x: **Day 61 : Time for Core Data**
+<br />:heavy_check_mark: **Day 60 : Milestone: Projects 10-12**
+![Day60](https://user-images.githubusercontent.com/57606580/168451170-c1635e39-36d5-4ed9-8012-a07f076f0145.png)
+
+<br />:heavy_check_mark: **Day 61 : Time for Core Data**
+![Day61](https://user-images.githubusercontent.com/57606580/168451172-614b3332-8ef0-494d-aa89-e7cdaaea1fbd.png)
  
 ## Days 62-76: Views and view controllers
 In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
