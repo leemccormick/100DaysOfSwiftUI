@@ -319,15 +319,19 @@ You’ve learned about data, data, and some more data, so it’s time to pause a
 ## Days 62-76: Views and view controllers
 In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
 
-<br />:x: **Day 62 : Project 13, part one**
+<br />:heavy_check_mark: **Day 62 : Project 13, part one**
 - Instafilter: Introduction
 - How property wrappers become structs
 - Responding to state changes using onChange()
 - Showing multiple options with confirmationDialog()
+![Day62](https://user-images.githubusercontent.com/57606580/168458194-acd417ec-947d-422c-a2be-96fdd893ccf0.png)
 
-<br />:x: **Day 63 : Project 13, part two**
+<br />:heavy_check_mark: **Day 63 : Project 13, part two**
 - Integrating Core Image with SwiftUI
 - Wrapping a UIViewController in a SwiftUI view
+![Day63](https://user-images.githubusercontent.com/57606580/168458191-292f08e2-332a-47ea-b946-51b85636cdf7.png)
+
+
 
 <br />:x: **Day 64 : Project 13, part three**
 - Using coordinators to manage SwiftUI view controllers
