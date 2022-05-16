@@ -331,11 +331,10 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Wrapping a UIViewController in a SwiftUI view
 ![Day63](https://user-images.githubusercontent.com/57606580/168458191-292f08e2-332a-47ea-b946-51b85636cdf7.png)
 
-
-
-<br />:x: **Day 64 : Project 13, part three**
+<br />:heavy_check_mark: **Day 64 : Project 13, part three**
 - Using coordinators to manage SwiftUI view controllers
 - How to save images to the user’s photo library
+![Screen Shot 2022-05-15 at 11 01 01 PM](https://user-images.githubusercontent.com/57606580/168518659-4f96a301-c5ab-48d4-b58d-27f6bd151192.png)
 
 <br />:x: **Day 65 : Project 13, part four**
 - Building our basic UI
