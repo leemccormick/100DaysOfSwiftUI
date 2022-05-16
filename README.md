@@ -336,11 +336,12 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - How to save images to the user’s photo library
 ![Screen Shot 2022-05-15 at 11 01 01 PM](https://user-images.githubusercontent.com/57606580/168518659-4f96a301-c5ab-48d4-b58d-27f6bd151192.png)
 
-<br />:x: **Day 65 : Project 13, part four**
+<br />:heavy_check_mark: **Day 65 : Project 13, part four**
 - Building our basic UI
 - Importing an image into SwiftUI using PHPickerViewController
 - Basic image filtering using Core Image
-- Need help? Tweet me @
+![Screen Shot 2022-05-16 at 2 12 32 PM](https://user-images.githubusercontent.com/57606580/168666895-c5d357be-925e-4033-95fc-cb0ba4d178c2.png)
+
 
 <br />:x: **Day 66 : Project 13, part five**
 - Customizing our filter using confirmationDialog()
