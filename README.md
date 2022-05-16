@@ -342,10 +342,10 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Basic image filtering using Core Image
 ![Screen Shot 2022-05-16 at 2 12 32 PM](https://user-images.githubusercontent.com/57606580/168666895-c5d357be-925e-4033-95fc-cb0ba4d178c2.png)
 
-
-<br />:x: **Day 66 : Project 13, part five**
+<br />:heavy_check_mark: **Day 66 : Project 13, part five**
 - Customizing our filter using confirmationDialog()
 - Saving the filtered image using UIImageWriteToSavedPhotosAlbum()
+![Screen Shot 2022-05-16 at 2 12 32 PM](https://user-images.githubusercontent.com/57606580/168694788-359fd05e-b922-4350-a810-126ff44d77d8.png)
 
 <br />:x: **Day 67 : Project 13, part six**
 - Instafilter: Wrap up
