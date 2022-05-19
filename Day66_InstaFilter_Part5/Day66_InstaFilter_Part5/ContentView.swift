@@ -68,7 +68,6 @@ struct ContentView: View {
                 Button("Vignette") { setFilter(CIFilter.vignette())}
                 Button("Cancel", role: .cancel) { }
             }
-           
         }
     }
     
