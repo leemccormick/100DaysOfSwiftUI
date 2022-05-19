@@ -347,9 +347,10 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Saving the filtered image using UIImageWriteToSavedPhotosAlbum()
 ![Screen Shot 2022-05-16 at 2 12 32 PM](https://user-images.githubusercontent.com/57606580/168694788-359fd05e-b922-4350-a810-126ff44d77d8.png)
 
-<br />:x: **Day 67 : Project 13, part six**
+<br />:heavy_check_mark: **Day 67 : Project 13, part six**
 - Instafilter: Wrap up
 - Review for Project 13: Instafilter
+![Screen Shot 2022-05-18 at 10 07 15 PM](https://user-images.githubusercontent.com/57606580/169200314-5bc517ad-1e6d-4426-b5ce-caf33759068f.png)
 
 <br />:x: **Day 68 : Project 14, part one**
 - Bucket List: Introduction
