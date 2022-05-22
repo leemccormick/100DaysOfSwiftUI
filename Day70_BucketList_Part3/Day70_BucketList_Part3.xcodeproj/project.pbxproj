@@ -11,6 +11,8 @@
 		B2E8EE342839C06F00E45E3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E8EE332839C06F00E45E3F /* ContentView.swift */; };
 		B2E8EE362839C07300E45E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E8EE352839C07300E45E3F /* Assets.xcassets */; };
 		B2E8EE392839C07300E45E3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2E8EE382839C07300E45E3F /* Preview Assets.xcassets */; };
+		B2E8EE402839D2A100E45E3F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E8EE3F2839D2A100E45E3F /* Location.swift */; };
+		B2E8EE422839ED9500E45E3F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E8EE412839ED9500E45E3F /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B2E8EE332839C06F00E45E3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2E8EE352839C07300E45E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2E8EE382839C07300E45E3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2E8EE3F2839D2A100E45E3F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B2E8EE412839ED9500E45E3F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				B2E8EE332839C06F00E45E3F /* ContentView.swift */,
 				B2E8EE352839C07300E45E3F /* Assets.xcassets */,
 				B2E8EE372839C07300E45E3F /* Preview Content */,
+				B2E8EE3F2839D2A100E45E3F /* Location.swift */,
+				B2E8EE412839ED9500E45E3F /* EditView.swift */,
 			);
 			path = Day70_BucketList_Part3;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2E8EE342839C06F00E45E3F /* ContentView.swift in Sources */,
+				B2E8EE402839D2A100E45E3F /* Location.swift in Sources */,
+				B2E8EE422839ED9500E45E3F /* EditView.swift in Sources */,
 				B2E8EE322839C06F00E45E3F /* Day70_BucketList_Part3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
