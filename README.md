@@ -357,6 +357,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Adding conformance to Comparable for custom types
 - Writing data to the documents directory
 - Switching view states with enums
+![Screen Shot 2022-05-21 at 11 54 31 PM](https://user-images.githubusercontent.com/57606580/169679391-7539ca3d-97c1-41a6-a153-f3be26df69e8.png)
 
 <br />:heavy_check_mark: **Day 69 : Project 14, part two**
 - Integrating MapKit with SwiftUI
