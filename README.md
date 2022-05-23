@@ -352,20 +352,23 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Review for Project 13: Instafilter
 ![Screen Shot 2022-05-18 at 10 07 15 PM](https://user-images.githubusercontent.com/57606580/169200314-5bc517ad-1e6d-4426-b5ce-caf33759068f.png)
 
-<br />:x: **Day 68 : Project 14, part one**
+<br />:heavy_check_mark: **Day 68 : Project 14, part one**
 - Bucket List: Introduction
 - Adding conformance to Comparable for custom types
 - Writing data to the documents directory
 - Switching view states with enums
+![Screen Shot 2022-05-21 at 11 54 31 PM](https://user-images.githubusercontent.com/57606580/169679391-7539ca3d-97c1-41a6-a153-f3be26df69e8.png)
 
-<br />:x: **Day 69 : Project 14, part two**
+<br />:heavy_check_mark: **Day 69 : Project 14, part two**
 - Integrating MapKit with SwiftUI
 - Using Touch ID and Face ID with SwiftUI
+![Day69](https://user-images.githubusercontent.com/57606580/169679031-14d168dc-7056-4042-9f4a-dc49a4e62c2a.png)
 
-<br />:x: **Day 70 : Project 14, part three**
+<br />:heavy_check_mark: **Day 70 : Project 14, part three**
 - Adding user locations to a map
 - Improving our map annotations
 - Selecting and editing map annotations
+![Screen Shot 2022-05-21 at 11 39 37 PM](https://user-images.githubusercontent.com/57606580/169679025-22eed90c-bed9-4d6c-8b8d-e357dad7cb26.png)
 
 <br />:x: **Day 71 : Project 14, part four**
 - Downloading data from Wikipedia
