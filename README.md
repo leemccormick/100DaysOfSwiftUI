@@ -370,9 +370,10 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Selecting and editing map annotations
 ![Screen Shot 2022-05-21 at 11 39 37 PM](https://user-images.githubusercontent.com/57606580/169679025-22eed90c-bed9-4d6c-8b8d-e357dad7cb26.png)
 
-<br />:x: **Day 71 : Project 14, part four**
+<br />:heavy_check_mark: **Day 71 : Project 14, part four**
 - Downloading data from Wikipedia
 - Sorting Wikipedia results
+![Screen Shot 2022-05-22 at 8 26 10 PM](https://user-images.githubusercontent.com/57606580/169727271-5fe69d0b-25c4-46cb-8956-fef44e75cc0e.png)
 
 <br />:x: **Day 72 : Project 14, part five**
 - Introducing MVVM into your SwiftUI project
