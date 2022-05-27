@@ -375,13 +375,15 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Sorting Wikipedia results
 ![Screen Shot 2022-05-22 at 8 26 10 PM](https://user-images.githubusercontent.com/57606580/169727271-5fe69d0b-25c4-46cb-8956-fef44e75cc0e.png)
 
-<br />:x: **Day 72 : Project 14, part five**
+<br />:heavy_check_mark: **Day 72 : Project 14, part five**
 - Introducing MVVM into your SwiftUI project
 - Locking our UI behind Face ID
+![Day72](https://user-images.githubusercontent.com/57606580/170629100-16debf9d-ad12-4bf7-9109-9ac421316b68.png)
 
-<br />:x: **Day 73 : Project 14, part six**
+<br />:heavy_check_mark: **Day 73 : Project 14, part six**
 - Bucket List: Wrap up
 - Review for Project 14: Bucket List
+![Screen Shot 2022-05-26 at 11 24 41 PM](https://user-images.githubusercontent.com/57606580/170629082-44ca52b5-18fc-4284-bf28-5110ef484f7d.png)
 
 <br />:x: **Day 74 : Project 15, part one**
 - Accessibility: Introduction
