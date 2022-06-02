@@ -385,11 +385,13 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Review for Project 14: Bucket List
 ![Screen Shot 2022-05-26 at 11 24 41 PM](https://user-images.githubusercontent.com/57606580/170629082-44ca52b5-18fc-4284-bf28-5110ef484f7d.png)
 
-<br />:x: **Day 74 : Project 15, part one**
+<br />:heavy_check_mark: **Day 74 : Project 15, part one**
 - Accessibility: Introduction
 - Identifying views with useful labels
 - Hiding and grouping accessibility data
 - Reading the value of controls
+![Screen Shot 2022-06-01 at 11 11 36 PM](https://user-images.githubusercontent.com/57606580/171551856-51232a49-b5a4-4dcb-8d88-874404977f31.png)
+
 
 <br />:x: **Day 75 : Project 15, part two**
 - Fixing Guess the Flag
