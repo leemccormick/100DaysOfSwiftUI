@@ -397,6 +397,7 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Fixing Guess the Flag
 - Fixing Word Scramble
 - Fixing Bookworm
+![Screen Shot 2022-06-06 at 10 17 06 PM](https://user-images.githubusercontent.com/57606580/172288750-4403b8d7-1942-40b7-a1fc-b83381be123e.png)
 
 <br />:x: **Day 76 : Project 15, part three**
 Accessibility: Wrap up
