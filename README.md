@@ -392,11 +392,11 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Reading the value of controls
 ![Screen Shot 2022-06-01 at 11 11 36 PM](https://user-images.githubusercontent.com/57606580/171551856-51232a49-b5a4-4dcb-8d88-874404977f31.png)
 
-
-<br />:x: **Day 75 : Project 15, part two**
+<br />:heavy_check_mark: **Day 75 : Project 15, part two**
 - Fixing Guess the Flag
 - Fixing Word Scramble
 - Fixing Bookworm
+![Screen Shot 2022-06-06 at 10 17 06 PM](https://user-images.githubusercontent.com/57606580/172288750-4403b8d7-1942-40b7-a1fc-b83381be123e.png)
 
 <br />:x: **Day 76 : Project 15, part three**
 Accessibility: Wrap up
