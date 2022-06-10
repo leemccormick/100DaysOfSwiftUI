@@ -398,10 +398,11 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 - Fixing Bookworm
 ![Screen Shot 2022-06-06 at 10 17 06 PM](https://user-images.githubusercontent.com/57606580/172288750-4403b8d7-1942-40b7-a1fc-b83381be123e.png)
 
-<br />:x: **Day 76 : Project 15, part three**
+<br />:heavy_check_mark **Day 76 : Project 15, part three**
 Accessibility: Wrap up
 Review for Project 15: Accessibility
- 
+![Screen Shot 2022-06-09 at 10 30 09 PM](https://user-images.githubusercontent.com/57606580/172985382-ea970c10-b7fb-4375-8ecd-ba13fb72a11a.png)
+
 ## Days 77-78: Consolidation VI
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
 <br />:x: **Day 77 : Milestone: Projects 13-15**
