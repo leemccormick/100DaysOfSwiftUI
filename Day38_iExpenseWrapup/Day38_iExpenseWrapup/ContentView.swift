@@ -88,14 +88,6 @@ struct ContentView: View {
         }
         return Array(Set(expenseTypes))
     }
-    
-    func getSection(expense : Expense) -> [String] {
-        var expenseTypes: [String] = []
-        for item in expense.items {
-            expenseTypes.append(item.type)
-        }
-        return Array(Set(expenseTypes))
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
