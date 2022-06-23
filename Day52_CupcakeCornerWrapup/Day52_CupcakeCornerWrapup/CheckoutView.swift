@@ -39,6 +39,7 @@ struct CheckoutView: View {
             Text(confirmationMessage)
         }
     }
+    
     func placeOrder() async {
         guard let enconded = try? JSONEncoder().encode(order.cupCakeOrder) else {
             print("Failed to encoded order")
