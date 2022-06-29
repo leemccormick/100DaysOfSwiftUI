@@ -405,7 +405,9 @@ In these projects the difficulty starts to ramp up as we look at how you integra
 
 ## Days 77-78: Consolidation VI
 You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
-<br />:x: **Day 77 : Milestone: Projects 13-15**
+<br />:heavy_check_mark: **Day 77 : Milestone: Projects 13-15**
+![Screen Shot 2022-06-22 at 11 29 10 PM](https://user-images.githubusercontent.com/57606580/175446109-e9742099-1662-4818-9de4-c8cd1efc270d.png)
+
 <br />:x: **Day 78 : Time for MapKit**
  
 ## Days 79-94: Controlling UI flow
