@@ -415,10 +415,11 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 ## Days 79-94: Controlling UI flow
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
-<br />:x: **Day 79 : Project 16, part one**
+<br />:heavy_check_mark: **Day 79 : Project 16, part one**
 - Hot Prospects: Introduction
 - Reading custom values from the environment with @EnvironmentObject
 - Creating tabs with TabView and tabItem()
+![Screen Shot 2022-06-28 at 10 48 34 PM](https://user-images.githubusercontent.com/57606580/176347684-8b1aba21-4569-40d7-855e-34f5b074e0c3.png)
 
 <br />:x: **Day 80 : Project 16, part two**
 - Manually publishing ObservableObject changes
