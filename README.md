@@ -408,7 +408,9 @@ You’ve had a difficult couple of projects as we tackled various parts of UIKit
 <br />:heavy_check_mark: **Day 77 : Milestone: Projects 13-15**
 ![Screen Shot 2022-06-22 at 11 29 10 PM](https://user-images.githubusercontent.com/57606580/175446109-e9742099-1662-4818-9de4-c8cd1efc270d.png)
 
-<br />:x: **Day 78 : Time for MapKit**
+<br />:heavy_check_mark:  **Day 78 : Time for MapKit**
+![Screen Shot 2022-06-28 at 9 11 08 PM](https://user-images.githubusercontent.com/57606580/176338283-94e7144e-a054-49e2-9eed-72c252fd83b5.png)
+
  
 ## Days 79-94: Controlling UI flow
 In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
