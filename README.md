@@ -421,10 +421,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Creating tabs with TabView and tabItem()
 ![Screen Shot 2022-06-28 at 10 48 34 PM](https://user-images.githubusercontent.com/57606580/176347684-8b1aba21-4569-40d7-855e-34f5b074e0c3.png)
 
-<br />:x: **Day 80 : Project 16, part two**
+<br />:heavy_check_mark: **Day 80 : Project 16, part two**
 - Manually publishing ObservableObject changes
 - Understanding Swift’s Result type
 - Controlling image interpolation in SwiftUI
+![Day80](https://user-images.githubusercontent.com/57606580/176587456-4eed0d4e-a29a-47b5-b017-b29fbab21013.png)
 
 <br />:x: **Day 81 : Project 16, part three**
 - Creating context menus
