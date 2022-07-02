@@ -427,11 +427,13 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Controlling image interpolation in SwiftUI
 ![Day80](https://user-images.githubusercontent.com/57606580/176587456-4eed0d4e-a29a-47b5-b017-b29fbab21013.png)
 
-<br />:x: **Day 81 : Project 16, part three**
+<br />:heavy_check_mark: **Day 81 : Project 16, part three**
 - Creating context menus
 - Adding custom row swipe actions to a List
 - Scheduling local notifications
 - Adding Swift package dependencies in Xcode
+![Screen Shot 2022-07-01 at 11 02 34 PM](https://user-images.githubusercontent.com/57606580/176985865-5548443d-2062-4051-9d15-46188653f947.png)
+
 
 <br />:x: **Day 82 : Project 16, part four**
 - Building our tab bar
