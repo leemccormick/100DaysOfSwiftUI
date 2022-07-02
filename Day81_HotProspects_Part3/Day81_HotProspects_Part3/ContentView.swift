@@ -30,7 +30,7 @@ struct ContentView: View {
                         .padding()
                 }
                 NavigationLink {
-                    RowSwipeView()
+                    PackageDependenciesView()
                 } label: {
                     Text("Adding Swift package dependencies in Xcode")
                         .padding()
