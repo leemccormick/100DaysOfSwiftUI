@@ -435,10 +435,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 ![Screen Shot 2022-07-01 at 11 02 34 PM](https://user-images.githubusercontent.com/57606580/176985865-5548443d-2062-4051-9d15-46188653f947.png)
 
 
-<br />:x: **Day 82 : Project 16, part four**
+<br />:heavy_check_mark: **Day 82 : Project 16, part four**
 - Building our tab bar
 - Sharing data across tabs using @EnvironmentObject
 - Dynamically filtering a SwiftUI List
+![Screen Shot 2022-07-02 at 9 10 12 PM](https://user-images.githubusercontent.com/57606580/177021766-cfc3df83-ddd4-4e4b-87f8-d4ec6975cf00.png)
 
 <br />:x: **Day 83 : Project 16, part five**
 - Generating and scaling up a QR code
