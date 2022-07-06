@@ -441,10 +441,12 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Dynamically filtering a SwiftUI List
 ![Screen Shot 2022-07-02 at 9 10 12 PM](https://user-images.githubusercontent.com/57606580/177021766-cfc3df83-ddd4-4e4b-87f8-d4ec6975cf00.png)
 
-<br />:x: **Day 83 : Project 16, part five**
+<br />:heavy_check_mark: **Day 83 : Project 16, part five**
 - Generating and scaling up a QR code
 - Scanning QR codes with SwiftUI
 - Adding options with swipe actions
+![Screen Shot 2022-07-06 at 4 06 49 PM](https://user-images.githubusercontent.com/57606580/177651859-180daca5-3cf2-4422-a48d-7563c88fb5b3.png)
+
 
 <br />:x: **Day 84 : Project 16, part six**
 - Saving and loading data with UserDefaults
