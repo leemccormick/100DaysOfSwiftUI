@@ -454,9 +454,10 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Posting notifications to the lock screen
 ![Screen Shot 2022-07-06 at 9 58 32 PM](https://user-images.githubusercontent.com/57606580/177688023-c4af9d69-e6c7-4001-b814-83c81fbf36a3.png)
 
-<br />:x: **Day 85 : Project 16, part seven**
+<br />:heavy_check_mark: **Day 85 : Project 16, part seven**
 - Hot Prospects: Wrap up
 - Review for Project 16: Hot Prospects
+![Screen Shot 2022-07-07 at 10 23 19 PM](https://user-images.githubusercontent.com/57606580/177916550-7dc80314-aa60-4c84-aecb-89c759fe313f.png)
 
 <br />:x: **Day 86 : Project 17, part one**
 - Flashzilla: Introduction
