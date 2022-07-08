@@ -37,8 +37,8 @@ class Prospect: Identifiable, Codable {
     }
     
     private func save() {
-        if let enconded = try? JSONEncoder().encode(people) {
-            UserDefaults.standard.set(enconded, forKey: saveKey)
+        if let encoded = try? JSONEncoder().encode(people) {
+            UserDefaults.standard.set(encoded, forKey: saveKey)
         }
     }
     

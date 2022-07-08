@@ -19,10 +19,10 @@ struct MeView: View {
     var body: some View {
         NavigationView {
             Form {
-                TextField("name", text: $name)
+                TextField("Name", text: $name)
                     .textContentType(.name)
                 TextField("Email Address", text: $emailAddress)
-                    .textContentType(.name)
+                    .textContentType(.emailAddress)
                 Image(uiImage: qrCode)
                     .resizable()
                     .interpolation(.none)
