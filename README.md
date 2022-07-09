@@ -307,7 +307,6 @@ In these projects we’re going to start looking more carefully at how we can se
 - Review for Project 12: Core Data
 ![Screen Shot 2022-05-10 at 9 23 28 PM](https://user-images.githubusercontent.com/57606580/167756338-e570091f-d316-445e-aad1-e3438268334b.png)
 
- 
 ## Days 60-61: Consolidation V
 You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
 <br />:heavy_check_mark: **Day 60 : Milestone: Projects 10-12**
@@ -434,7 +433,6 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Adding Swift package dependencies in Xcode
 ![Screen Shot 2022-07-01 at 11 02 34 PM](https://user-images.githubusercontent.com/57606580/176985865-5548443d-2062-4051-9d15-46188653f947.png)
 
-
 <br />:heavy_check_mark: **Day 82 : Project 16, part four**
 - Building our tab bar
 - Sharing data across tabs using @EnvironmentObject
@@ -447,7 +445,6 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Adding options with swipe actions
 ![Screen Shot 2022-07-06 at 4 06 49 PM](https://user-images.githubusercontent.com/57606580/177651859-180daca5-3cf2-4422-a48d-7563c88fb5b3.png)
 
-
 <br />:heavy_check_mark: **Day 84 : Project 16, part six**
 - Saving and loading data with UserDefaults
 - Adding a context menu to an image
@@ -459,11 +456,12 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Review for Project 16: Hot Prospects
 ![Screen Shot 2022-07-07 at 10 23 19 PM](https://user-images.githubusercontent.com/57606580/177916550-7dc80314-aa60-4c84-aecb-89c759fe313f.png)
 
-<br />:x: **Day 86 : Project 17, part one**
+<br />:heavy_check_mark: **Day 86 : Project 17, part one**
 - Flashzilla: Introduction
 - How to use gestures in SwiftUI
 - Making vibrations with UINotificationFeedbackGenerator and Core Haptics
 - Disabling user interactivity with allowsHitTesting()
+![Screen Shot 2022-07-08 at 9 13 13 PM](https://user-images.githubusercontent.com/57606580/178089533-7f706586-56d3-4725-86e0-c830f15c1b0b.png)
 
 <br />:x: **Day 87 : Project 17, part two**
 - Triggering events repeatedly using a timer
