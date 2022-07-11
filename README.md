@@ -475,10 +475,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Moving views with DragGesture and offset()
 ![Screen Shot 2022-07-10 at 8 42 06 PM](https://user-images.githubusercontent.com/57606580/178179046-8f44c5ea-134c-4ad9-9fb8-510e483cd812.png)
 
-<br />:x: **Day 89 : Project 17, part four**
+<br />:heavy_check_mark: **Day 89 : Project 17, part four**
 - Coloring views as we swipe
 - Counting down with a Timer
 - Ending the app with allowsHitTesting()
+![Day89](https://user-images.githubusercontent.com/57606580/178304038-bb585354-59c9-4654-b71c-97832588aa1e.png)
 
 <br />:x: **Day 90 : Project 17, part five**
 - Making iPhones vibrate with UINotificationFeedbackGenerator
