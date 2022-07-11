@@ -463,15 +463,17 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Disabling user interactivity with allowsHitTesting()
 ![Screen Shot 2022-07-08 at 9 13 13 PM](https://user-images.githubusercontent.com/57606580/178089533-7f706586-56d3-4725-86e0-c830f15c1b0b.png)
 
-<br />:x: **Day 87 : Project 17, part two**
+<br />:heavy_check_mark: **Day 87 : Project 17, part two**
 - Triggering events repeatedly using a timer
 - How to be notified when your SwiftUI app moves to the background
 - Supporting specific accessibility needs with SwiftUI
+![Screen Shot 2022-07-10 at 7 28 18 PM](https://user-images.githubusercontent.com/57606580/178179053-a8728162-5883-4d32-aca0-88d86c93ddd5.png)
 
-<br />:x: **Day 88 : Project 17, part three**
+<br />:heavy_check_mark: **Day 88 : Project 17, part three**
 - Designing a single card view
 - Building a stack of cards
 - Moving views with DragGesture and offset()
+![Screen Shot 2022-07-10 at 8 42 06 PM](https://user-images.githubusercontent.com/57606580/178179046-8f44c5ea-134c-4ad9-9fb8-510e483cd812.png)
 
 <br />:x: **Day 89 : Project 17, part four**
 - Coloring views as we swipe
