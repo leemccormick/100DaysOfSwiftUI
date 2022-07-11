@@ -481,10 +481,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Ending the app with allowsHitTesting()
 ![Day89](https://user-images.githubusercontent.com/57606580/178304038-bb585354-59c9-4654-b71c-97832588aa1e.png)
 
-<br />:x: **Day 90 : Project 17, part five**
+<br />:heavy_check_mark: **Day 90 : Project 17, part five**
 - Making iPhones vibrate with UINotificationFeedbackGenerator
 - Fixing the bugs
 - Adding and deleting cards
+![Screen Shot 2022-07-11 at 12 44 57 PM](https://user-images.githubusercontent.com/57606580/178335895-1fd8860e-e250-40e8-8f1f-db631b9db66a.png)
 
 <br />:x: **Day 91 : Project 17, part six**
 - Flashzilla: Wrap up
