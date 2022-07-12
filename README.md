@@ -487,16 +487,17 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - Adding and deleting cards
 ![Screen Shot 2022-07-11 at 12 44 57 PM](https://user-images.githubusercontent.com/57606580/178335895-1fd8860e-e250-40e8-8f1f-db631b9db66a.png)
 
-<br />:x: **Day 91 : Project 17, part six**
+<br />:heavy_check_mark: **Day 91 : Project 17, part six**
 - Flashzilla: Wrap up
 - Review for Project 17: Flashzilla
 ![Screen Shot 2022-07-12 at 10 45 28 AM](https://user-images.githubusercontent.com/57606580/178548134-d5ef5d2b-8492-4ebb-9c00-9ad405ebf700.png)
 
-<br />:x: **Day 92 : Project 18, part one**
+<br />:heavy_check_mark: **Day 92 : Project 18, part one**
 - Layout and geometry: Introduction
 - How layout works in SwiftUI
 - Alignment and alignment guides
 - How to create a custom alignment guide
+![Screen Shot 2022-07-12 at 1 26 00 PM](https://user-images.githubusercontent.com/57606580/178577692-f6feb8c5-8a8a-4c1a-b9fd-1e0691fd2cef.png)
 
 <br />:x: **Day 93 : Project 18, part two**
 Absolute positioning for SwiftUI views
