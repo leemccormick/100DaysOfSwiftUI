@@ -19,6 +19,7 @@
 
 import SwiftUI
 
+// MARK: - Extension View
 extension View {
     func stacked(at position: Int, in total: Int) -> some View {
         let offset = Double(total - position)
@@ -26,23 +27,27 @@ extension View {
     }
 }
 
+// MARK: - ContentView
 struct ContentView: View {
+    // MARK: - Properties
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
     @Environment(\.accessibilityVoiceOverEnabled) var voiceOverEnabled
     @Environment(\.scenePhase) var scenePhase
-    @State private var cards = [Card]()
-    @State private var timeRemaining = 100
-    @State private var isActive = true
+    @StateObject private var vm = CardsDocumentDirectoryController()
     @State private var showingEditView = false
     
+    // MARK: - Body
     var body: some View {
         ZStack {
+            // Background
             Image(decorative: "background")
                 .resizable()
                 .ignoresSafeArea()
+            
+            // Time Text and Card View
             VStack {
-                Text("Time : \(timeRemaining)")
+                Text("Time : \(vm.timeRemaining)")
                     .font(.largeTitle)
                     .foregroundColor(.white)
                     .padding(.horizontal, 20)
@@ -50,31 +55,33 @@ struct ContentView: View {
                     .background(.black.opacity(0.75))
                     .clipShape(Capsule())
                 ZStack {
-                    ForEach(0..<cards.count, id: \.self) { index in
+                    ForEach(0..<vm.cards.count, id: \.self) { index in
                         //  Challenge 3
-                        CardView(card: cards[index]) { isCorrectAnswer in
+                        CardView(card: vm.cards[index]) { isCorrectAnswer in
                             withAnimation {
                                 if isCorrectAnswer {
-                                    removeCard(at: index)
+                                    vm.removeCard(at: index)
                                 } else {
-                                    restackCard(at: index)
+                                    vm.restackCard(at: index)
                                 }
                             }
                         }
-                        .stacked(at: index, in: cards.count)
-                        .allowsHitTesting(index == cards.count - 1)
-                        .accessibilityHidden(index < cards.count - 1)
+                        .stacked(at: index, in: vm.cards.count)
+                        .allowsHitTesting(index == vm.cards.count - 1)
+                        .accessibilityHidden(index < vm.cards.count - 1)
                     }
                 }
-                .allowsHitTesting(timeRemaining > 0)
-                if cards.isEmpty {
-                    Button("Start Again", action: resetCards)
+                .allowsHitTesting(vm.timeRemaining > 0)
+                if vm.cards.isEmpty {
+                    Button("Start Again", action: vm.resetCards)
                         .padding()
                         .background(.white)
                         .foregroundColor(.black)
                         .clipShape(Capsule())
                 }
             }
+            
+            // Add Card Button
             VStack {
                 HStack {
                     Spacer()
@@ -92,13 +99,15 @@ struct ContentView: View {
             .foregroundColor(.white)
             .font(.largeTitle)
             .padding()
+            
+            // Accessibily
             if differentiateWithoutColor || voiceOverEnabled {
                 VStack {
                     Spacer()
                     HStack {
                         Button {
                             withAnimation {
-                                removeCard(at: cards.count - 1)
+                                vm.removeCard(at: vm.cards.count - 1)
                             }
                         } label: {
                             Image(systemName: "xmark.circle")
@@ -111,7 +120,7 @@ struct ContentView: View {
                         Spacer()
                         Button {
                             withAnimation {
-                                removeCard(at: cards.count - 1)
+                                vm.removeCard(at: vm.cards.count - 1)
                             }                        } label: {
                                 Image(systemName: "checkmark.circle")
                                     .padding()
@@ -127,58 +136,15 @@ struct ContentView: View {
                 }
             }
         }
-        .onReceive(timer) { time in
-            if timeRemaining > 0 {
-                guard isActive else { return }
-                timeRemaining -= 1
-            }
-        }
-        .onChange(of: scenePhase) { newPhase in
-            if newPhase == .active {
-                if cards.isEmpty == false {
-                    isActive = true
-                }
-            } else {
-                isActive = false
-            }
-        }
-        .sheet(isPresented: $showingEditView, onDismiss: resetCards, content: EditCardsView.init)
-        .onAppear(perform: resetCards)
-    }
-    
-    func loadData() {
-        if let data = UserDefaults.standard.data(forKey: "Cards") {
-            if let decoded = try? JSONDecoder().decode([Card].self, from: data) {
-                cards = decoded
-            }
-        }
-    }
-    
-    func removeCard(at index: Int) {
-        guard index >= 0 else { return }
-        cards.remove(at: index)
-        if cards.isEmpty {
-            isActive = false
-        }
-    }
-    
-    func restackCard(at index: Int) { //  Challenge 3
-        guard index >= 0 else { return }
-        let newCard = cards[index]
-        cards.remove(at: index)
-        cards.insert(newCard, at: 0)
-        if cards.isEmpty {
-            isActive = false
-        }
-    }
-    
-    func resetCards() {
-        timeRemaining = 100
-        isActive = true
-        loadData()
+        .onReceive(timer) { time in vm.updateTimeRemaining() }
+        .onChange(of: scenePhase) { newPhase in vm.updateIsActiveStatus(with: newPhase) }
+        .sheet(isPresented: $showingEditView, onDismiss: vm.resetCards, content: EditCardsView.init)
+        .onAppear(perform: vm.resetCards)
+        .environmentObject(vm)
     }
 }
 
+// MARK: - PreviewProvider
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

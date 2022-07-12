@@ -7,7 +7,9 @@
 
 import SwiftUI
 
+// MARK: - Card View
 struct CardView: View {
+    // MARK: - Properties
     let card: Card
     var removal: ((_ isCorrectAnswer: Bool) -> Void)? = nil // Challenge 3
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
@@ -16,6 +18,7 @@ struct CardView: View {
     @State private var offset = CGSize.zero
     @State private var feedback = UINotificationFeedbackGenerator()
     
+    // MARK: - Body
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25, style: .continuous)
@@ -53,34 +56,33 @@ struct CardView: View {
         .offset(x: offset.width * 5, y: 0)
         .opacity(2 - Double(abs(offset.width / 50)))
         .accessibilityAddTraits(.isButton)
-        .gesture(
-            DragGesture()
-                .onChanged { gesture in
-                    offset = gesture.translation
-                    feedback.prepare()
-                }
-                .onEnded { _ in
-                    if abs(offset.width) > 100 {
-                        if offset.width < 0 {
-                            offset = .zero  //  Challenge 3
-                            feedback.notificationOccurred(.error)
-                        }
-                        removal?(offset.width > 0)
-                        
-                    } else {
-                        offset = .zero
-                    }
-                    
-                    
-                }
-        )
-        .onTapGesture {
-            isShowingAnswer.toggle()
-        }
+        .gesture(dragGesture())
+        .onTapGesture { isShowingAnswer.toggle() }
         .animation(.spring(), value: offset)
+    }
+    
+    // MARK: - Functions
+    func dragGesture() -> some Gesture {
+        DragGesture()
+            .onChanged { gesture in
+                offset = gesture.translation
+                feedback.prepare()
+            }
+            .onEnded { _ in
+                if abs(offset.width) > 100 {
+                    if offset.width < 0 {
+                        offset = .zero  //  Challenge 3
+                        feedback.notificationOccurred(.error)
+                    }
+                    removal?(offset.width > 0)
+                } else {
+                    offset = .zero
+                }
+            }
     }
 }
 
+// MARK: - PreviewProvider
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(card: Card.example)

@@ -14,6 +14,7 @@
 		B282931D287CD5530017CA7D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282931C287CD5530017CA7D /* CardView.swift */; };
 		B282931F287CD5710017CA7D /* EditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B282931E287CD5710017CA7D /* EditCardsView.swift */; };
 		B2829321287CD57C0017CA7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2829320287CD57C0017CA7D /* Card.swift */; };
+		B290B1F3287DC091008CFF1B /* CardsDocumentDirectoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290B1F2287DC091008CFF1B /* CardsDocumentDirectoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B282931C287CD5530017CA7D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B282931E287CD5710017CA7D /* EditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView.swift; sourceTree = "<group>"; };
 		B2829320287CD57C0017CA7D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B290B1F2287DC091008CFF1B /* CardsDocumentDirectoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDocumentDirectoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				B282930E287CD44F0017CA7D /* Day91_Flashzilla_WrapUpApp.swift */,
-				B2829310287CD44F0017CA7D /* ContentView.swift */,
 				B2829312287CD4530017CA7D /* Assets.xcassets */,
 				B2829314287CD4530017CA7D /* Preview Content */,
-				B282931C287CD5530017CA7D /* CardView.swift */,
-				B282931E287CD5710017CA7D /* EditCardsView.swift */,
-				B2829320287CD57C0017CA7D /* Card.swift */,
+				B290B1F4287DDB46008CFF1B /* Model */,
+				B290B1F5287DDB5D008CFF1B /* Views */,
+				B290B1F6287DDB6D008CFF1B /* Controller */,
 			);
 			path = Day91_Flashzilla_WrapUp;
 			sourceTree = "<group>";
@@ -74,6 +75,32 @@
 				B2829315287CD4530017CA7D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B290B1F4287DDB46008CFF1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2829320287CD57C0017CA7D /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B290B1F5287DDB5D008CFF1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B282931C287CD5530017CA7D /* CardView.swift */,
+				B2829310287CD44F0017CA7D /* ContentView.swift */,
+				B282931E287CD5710017CA7D /* EditCardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B290B1F6287DDB6D008CFF1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B290B1F2287DC091008CFF1B /* CardsDocumentDirectoryController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +175,7 @@
 			files = (
 				B282931F287CD5710017CA7D /* EditCardsView.swift in Sources */,
 				B2829311287CD44F0017CA7D /* ContentView.swift in Sources */,
+				B290B1F3287DC091008CFF1B /* CardsDocumentDirectoryController.swift in Sources */,
 				B2829321287CD57C0017CA7D /* Card.swift in Sources */,
 				B282931D287CD5530017CA7D /* CardView.swift in Sources */,
 				B282930F287CD44F0017CA7D /* Day91_Flashzilla_WrapUpApp.swift in Sources */,
