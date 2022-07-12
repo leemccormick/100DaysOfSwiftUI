@@ -166,7 +166,7 @@ struct ContentView: View {
     func resetCards() {
         // cards = Array(repeating: Card.example, count: 10)
         timeRemaining = 100
-        isActive = false
+        isActive = true
         loadData() // And now we can add a call to loadData() in resetCards(), so that we refill the cards property with all saved cards when the app launches or when the user edits their cards:
     }
 }
