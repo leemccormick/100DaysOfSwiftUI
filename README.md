@@ -490,6 +490,7 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 <br />:x: **Day 91 : Project 17, part six**
 - Flashzilla: Wrap up
 - Review for Project 17: Flashzilla
+![Screen Shot 2022-07-12 at 10 45 28 AM](https://user-images.githubusercontent.com/57606580/178548134-d5ef5d2b-8492-4ebb-9c00-9ad405ebf700.png)
 
 <br />:x: **Day 92 : Project 18, part one**
 - Layout and geometry: Introduction
