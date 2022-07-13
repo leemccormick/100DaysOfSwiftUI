@@ -499,10 +499,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - How to create a custom alignment guide
 ![Screen Shot 2022-07-12 at 1 26 00 PM](https://user-images.githubusercontent.com/57606580/178577692-f6feb8c5-8a8a-4c1a-b9fd-1e0691fd2cef.png)
 
-<br />:x: **Day 93 : Project 18, part two**
-Absolute positioning for SwiftUI views
-Understanding frames and coordinates inside GeometryReader
-ScrollView effects using GeometryReader
+<br />:heavy_check_mark: **Day 93 : Project 18, part two**
+- Absolute positioning for SwiftUI views
+- Understanding frames and coordinates inside GeometryReader
+- ScrollView effects using GeometryReader
+![Screen Shot 2022-07-12 at 8 40 59 PM](https://user-images.githubusercontent.com/57606580/178639578-8a7ced8b-844d-4b00-8eec-566c492f082f.png)
 
 <br />:x: **Day 94 : Project 18, part three**
 - Layout and geometry: Wrap up
