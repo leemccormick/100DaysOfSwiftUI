@@ -505,10 +505,11 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 - ScrollView effects using GeometryReader
 ![Screen Shot 2022-07-12 at 8 40 59 PM](https://user-images.githubusercontent.com/57606580/178639578-8a7ced8b-844d-4b00-8eec-566c492f082f.png)
 
-<br />:x: **Day 94 : Project 18, part three**
+<br />:heavy_check_mark: **Day 94 : Project 18, part three**
 - Layout and geometry: Wrap up
 - Review for Project 18: Layout and geometry
- 
+ ![Screen Shot 2022-07-13 at 2 19 19 PM](https://user-images.githubusercontent.com/57606580/178827105-2cebc3c4-66e5-4d24-a92f-2b3897894c66.png)
+
 ## Days 95: Consolidation VII
 As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
 <br />:x: **Day 95 : Milestone: Projects 16-18**
