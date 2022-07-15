@@ -6,23 +6,9 @@
 //
 
 import Foundation
-
-
 import SwiftUI
 
-extension View {
-    func stacked(at position: Int, in total: Int) -> some View {
-        
-      
-        let offset = Double(total - position)
-      //  print("position : \(position) | total : \(total) | offset : \(offset)")
-        
-        print("position : \(position) | total : \(total) | offset : \(offset) | offset 40: \(offset * 40)")
-        return self.offset(x: 0, y: offset * 10)
-    }
-}
-
-
+// MARK: - Extension Color
 extension Color {
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
