@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20E3A0C2880769E00C8FDA9 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E3A0B2880769E00C8FDA9 /* DiceViewModel.swift */; };
+		B20E3A132880B2AC00C8FDA9 /* PointsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E3A122880B2AB00C8FDA9 /* PointsHistoryView.swift */; };
+		B256CDA128805EE900FCC549 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B256CDA028805EE900FCC549 /* ExtensionHelpers.swift */; };
+		B274B09E287F7A0B00D0865D /* Day95_RollDiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274B09D287F7A0B00D0865D /* Day95_RollDiceApp.swift */; };
+		B274B0A0287F7A0B00D0865D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274B09F287F7A0B00D0865D /* ContentView.swift */; };
+		B274B0A2287F7A1400D0865D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B274B0A1287F7A1400D0865D /* Assets.xcassets */; };
+		B274B0A5287F7A1400D0865D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B274B0A4287F7A1400D0865D /* Preview Assets.xcassets */; };
+		B274B0AC287F883B00D0865D /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274B0AB287F883A00D0865D /* Dice.swift */; };
+		B274B0AE287FC92C00D0865D /* RollDiceResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274B0AD287FC92C00D0865D /* RollDiceResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20E3A0B2880769E00C8FDA9 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
+		B20E3A122880B2AB00C8FDA9 /* PointsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsHistoryView.swift; sourceTree = "<group>"; };
+		B256CDA028805EE900FCC549 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
+		B274B09A287F7A0B00D0865D /* Day95_RollDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day95_RollDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B274B09D287F7A0B00D0865D /* Day95_RollDiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day95_RollDiceApp.swift; sourceTree = "<group>"; };
+		B274B09F287F7A0B00D0865D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B274B0A1287F7A1400D0865D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B274B0A4287F7A1400D0865D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B274B0AB287F883A00D0865D /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		B274B0AD287FC92C00D0865D /* RollDiceResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B274B097287F7A0B00D0865D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20E3A0F2880922500C8FDA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B274B09F287F7A0B00D0865D /* ContentView.swift */,
+				B274B0AD287FC92C00D0865D /* RollDiceResultView.swift */,
+				B20E3A122880B2AB00C8FDA9 /* PointsHistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B20E3A102880923D00C8FDA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B274B0AB287F883A00D0865D /* Dice.swift */,
+				B20E3A0B2880769E00C8FDA9 /* DiceViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B20E3A112880924500C8FDA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B256CDA028805EE900FCC549 /* ExtensionHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B274B091287F7A0B00D0865D = {
+			isa = PBXGroup;
+			children = (
+				B274B09C287F7A0B00D0865D /* Day95_RollDice */,
+				B274B09B287F7A0B00D0865D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B274B09B287F7A0B00D0865D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B274B09A287F7A0B00D0865D /* Day95_RollDice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B274B09C287F7A0B00D0865D /* Day95_RollDice */ = {
+			isa = PBXGroup;
+			children = (
+				B274B09D287F7A0B00D0865D /* Day95_RollDiceApp.swift */,
+				B274B0A1287F7A1400D0865D /* Assets.xcassets */,
+				B274B0A3287F7A1400D0865D /* Preview Content */,
+				B20E3A102880923D00C8FDA9 /* Models */,
+				B20E3A112880924500C8FDA9 /* Helpers */,
+				B20E3A0F2880922500C8FDA9 /* Views */,
+			);
+			path = Day95_RollDice;
+			sourceTree = "<group>";
+		};
+		B274B0A3287F7A1400D0865D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B274B0A4287F7A1400D0865D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B274B099287F7A0B00D0865D /* Day95_RollDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B274B0A8287F7A1400D0865D /* Build configuration list for PBXNativeTarget "Day95_RollDice" */;
+			buildPhases = (
+				B274B096287F7A0B00D0865D /* Sources */,
+				B274B097287F7A0B00D0865D /* Frameworks */,
+				B274B098287F7A0B00D0865D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day95_RollDice;
+			productName = Day95_RollDice;
+			productReference = B274B09A287F7A0B00D0865D /* Day95_RollDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B274B092287F7A0B00D0865D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B274B099287F7A0B00D0865D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B274B095287F7A0B00D0865D /* Build configuration list for PBXProject "Day95_RollDice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B274B091287F7A0B00D0865D;
+			productRefGroup = B274B09B287F7A0B00D0865D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B274B099287F7A0B00D0865D /* Day95_RollDice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B274B098287F7A0B00D0865D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274B0A5287F7A1400D0865D /* Preview Assets.xcassets in Resources */,
+				B274B0A2287F7A1400D0865D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B274B096287F7A0B00D0865D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B274B0A0287F7A0B00D0865D /* ContentView.swift in Sources */,
+				B274B0AC287F883B00D0865D /* Dice.swift in Sources */,
+				B20E3A132880B2AC00C8FDA9 /* PointsHistoryView.swift in Sources */,
+				B274B0AE287FC92C00D0865D /* RollDiceResultView.swift in Sources */,
+				B20E3A0C2880769E00C8FDA9 /* DiceViewModel.swift in Sources */,
+				B256CDA128805EE900FCC549 /* ExtensionHelpers.swift in Sources */,
+				B274B09E287F7A0B00D0865D /* Day95_RollDiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B274B0A6287F7A1400D0865D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B274B0A7287F7A1400D0865D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B274B0A9287F7A1400D0865D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day95_RollDice/Preview Content\"";
+				DEVELOPMENT_TEAM = L73M8R7276;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeMcCormick.Day95-RollDice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B274B0AA287F7A1400D0865D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Day95_RollDice/Preview Content\"";
+				DEVELOPMENT_TEAM = L73M8R7276;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LeeMcCormick.Day95-RollDice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B274B095287F7A0B00D0865D /* Build configuration list for PBXProject "Day95_RollDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274B0A6287F7A1400D0865D /* Debug */,
+				B274B0A7287F7A1400D0865D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B274B0A8287F7A1400D0865D /* Build configuration list for PBXNativeTarget "Day95_RollDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B274B0A9287F7A1400D0865D /* Debug */,
+				B274B0AA287F7A1400D0865D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B274B092287F7A0B00D0865D /* Project object */;
+}
