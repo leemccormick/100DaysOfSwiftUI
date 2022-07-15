@@ -512,8 +512,9 @@ In these projects we build our biggest apps yet, while also exploring more ways 
 
 ## Days 95: Consolidation VII
 As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
-<br />:x: **Day 95 : Milestone: Projects 16-18**
- 
+<br />:heavy_check_mark: **Day 95 : Milestone: Projects 16-18**
+![Screen Shot 2022-07-14 at 9 34 24 PM](https://user-images.githubusercontent.com/57606580/179145129-dea51f16-b666-42da-b58f-4a3d77eb1110.png)
+
 ## Days 96-99: One last project
 In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
