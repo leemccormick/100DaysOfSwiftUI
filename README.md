@@ -518,23 +518,26 @@ As we approach the end of our 100 days it’s time to pause and reflect on the m
 ## Days 96-99: One last project
 In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
-<br />:x: **Day 96 : Project 19, part one**
+<br />:heavy_check_mark: **Day 96 : Project 19, part one**
 - SnowSeeker: Introduction
 - Working with two side by side views in SwiftUI
 - Using alert() and sheet() with optionals
 - Using groups as transparent layout containers
 - Making a SwiftUI view searchable
+![Day 96](https://user-images.githubusercontent.com/57606580/179329315-74531d19-d250-41b8-98d9-ed2066fbf572.png)
 
-<br />:x: **Day 97 : Project 19, part two**
+<br />:heavy_check_mark: **Day 97 : Project 19, part two**
 - Building a primary list of items
 - Making NavigationView work in landscape
 - Creating a secondary view for NavigationView
 - Searching for data in a List
+![Day97](https://user-images.githubusercontent.com/57606580/179329312-c50dd722-64e3-4a45-9e4f-c84c23797e35.png)
 
-<br />:x: **Day 98 : Project 19, part three**
+<br />:heavy_check_mark: **Day 98 : Project 19, part three**
 - Changing a view’s layout in response to size classes
 - Binding an alert to an optional string
 - Letting the user mark favorites
+![Day98](https://user-images.githubusercontent.com/57606580/179329314-c9977157-3fa2-497c-b77f-735a8e4fa62a.png)
 
 <br />:x: **Day 99 : Project 19, part four**
 - SnowSeeker: Wrap up
