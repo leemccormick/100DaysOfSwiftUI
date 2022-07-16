@@ -32,10 +32,7 @@ struct Day99_SnowSeeker_WrapUpApp: App {
 
  This kind of app is really good as a template, because it’s the kind of thing you can use again and again in the future just by varying the kind of content you feed into it. Template apps – as well as the techniques underlying them – are the “bread and butter” of iOS apps: the kind of thing that is never going to set the world on fire, but also so fundamentally useful and common that you can’t do without them.
 
- Review what you learned
  Anyone can sit through a tutorial, but it takes actual work to remember what was taught. It’s my job to make sure you take as much from these tutorials as possible, so I’ve prepared a short review to help you check your learning.
-
- Click here to review what you learned in this project.
 
  *** Challenge ***
  One of the best ways to learn is to write your own code as often as possible, so here are three ways you should try extending this app to make sure you fully understand what’s going on.
