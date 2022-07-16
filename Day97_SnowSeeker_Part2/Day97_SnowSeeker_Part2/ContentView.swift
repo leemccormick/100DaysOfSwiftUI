@@ -52,8 +52,8 @@ struct ContentView: View {
                     }
                 }
             }
-            navigationTitle("Resorts")
-                .searchable(text: $searchText, prompt: "Search for a resort")
+            .navigationTitle("Resorts")
+            .searchable(text: $searchText, prompt: "Search for a resort")
             WelcomeView()
         }
         // .phoneOnlyNavigationView() --> Once you have that extension, simply add the .phoneOnlyStackNavigationView() modifier to your NavigationView so that iPads retain their default behavior whilst iPhones always use stack navigation. Again, give it a try and see what you think – it’s your app, and it’s important you like how it works. Tip: I’m not going to be using this modifier in my own project because I prefer to use Apple’s default behavior where possible, but don’t let that stop you from making your own choice!

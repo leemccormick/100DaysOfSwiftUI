@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B26F4C192882143C002EAD20 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = B26F4C182882143C002EAD20 /* resorts.json */; };
 		B29AF1782881C18500E58C0B /* Day99_SnowSeeker_WrapUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AF1772881C18500E58C0B /* Day99_SnowSeeker_WrapUpApp.swift */; };
 		B29AF17A2881C18500E58C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29AF1792881C18500E58C0B /* ContentView.swift */; };
 		B29AF17C2881C18700E58C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29AF17B2881C18700E58C0B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B26F4C182882143C002EAD20 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = resorts.json; path = "../../HackingWithSwift-main/SwiftUI/project19-files/resorts.json"; sourceTree = "<group>"; };
 		B29AF1742881C18500E58C0B /* Day99_SnowSeeker_WrapUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day99_SnowSeeker_WrapUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29AF1772881C18500E58C0B /* Day99_SnowSeeker_WrapUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day99_SnowSeeker_WrapUpApp.swift; sourceTree = "<group>"; };
 		B29AF1792881C18500E58C0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		B29AF1762881C18500E58C0B /* Day99_SnowSeeker_WrapUp */ = {
 			isa = PBXGroup;
 			children = (
+				B26F4C182882143C002EAD20 /* resorts.json */,
 				B29AF1772881C18500E58C0B /* Day99_SnowSeeker_WrapUpApp.swift */,
 				B29AF1792881C18500E58C0B /* ContentView.swift */,
 				B29AF17B2881C18700E58C0B /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26F4C192882143C002EAD20 /* resorts.json in Resources */,
 				B29AF17F2881C18700E58C0B /* Preview Assets.xcassets in Resources */,
 				B29AF17C2881C18700E58C0B /* Assets.xcassets in Resources */,
 			);
