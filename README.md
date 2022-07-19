@@ -549,4 +549,5 @@ In this final project we cover some last tips and techniques to help you build g
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 <br />:heavy_check_mark: **Day 100 : Final exam**
 <br />:heavy_check_mark: **logue : What now?**
-![Day100](https://user-images.githubusercontent.com/57606580/179662117-06ce4cea-3b05-45f2-a4d6-67fc6b176b0d.png)
+![Screen Shot 2022-07-18 at 10 10 02 PM](https://user-images.githubusercontent.com/57606580/179662805-fbd4286c-aa18-4b79-a895-a6df9c07eebe.png)
+
