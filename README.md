@@ -1,6 +1,7 @@
 # 100DaysOfSwiftUI By Paul Hudson
 Learning swiftUI will be helpful for my career as an iOS developer. Thank you Pual Hudson for 100 days of SwiftUI.
 - https://www.hackingwithswift.com/100/swiftui
+![CertificateOf100DaysOfSwiftUI_LeeMcCormick](https://user-images.githubusercontent.com/57606580/179662186-fd128cff-69b0-4a33-8958-31cb1f43b65f.jpg)
 
 ## Days 1-14: Introduction to Swift
 The first 14 days provide a gentle warm up for your SwiftUI learning as we cover the fundamentals of the Swift programming language. You’ll work through a selection of tutorials every day, and there is some optional extra reading afterwards if you’d like to dig deeper. Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
@@ -544,7 +545,8 @@ In this final project we cover some last tips and techniques to help you build g
 - Review for Project 19: SnowSeeker
 ![Screen Shot 2022-07-17 at 3 27 02 PM](https://user-images.githubusercontent.com/57606580/179425455-74db151b-3009-46b1-99fe-094a04c051b1.png)
 
-## Day 100 : Wrap up
+<br />:heavy_check_mark: **Day 100 : Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 <br />:x: **Day 100 : Final exam**
 <br />:x: **logue : What now?**
+![Day100](https://user-images.githubusercontent.com/57606580/179662117-06ce4cea-3b05-45f2-a4d6-67fc6b176b0d.png)
