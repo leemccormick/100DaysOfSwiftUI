@@ -545,8 +545,8 @@ In this final project we cover some last tips and techniques to help you build g
 - Review for Project 19: SnowSeeker
 ![Screen Shot 2022-07-17 at 3 27 02 PM](https://user-images.githubusercontent.com/57606580/179425455-74db151b-3009-46b1-99fe-094a04c051b1.png)
 
-<br />:heavy_check_mark: **Day 100 : Wrap up
+## Day 100 : Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
-<br />:x: **Day 100 : Final exam**
-<br />:x: **logue : What now?**
+<br />:heavy_check_mark: **Day 100 : Final exam**
+<br />:heavy_check_mark: **logue : What now?**
 ![Day100](https://user-images.githubusercontent.com/57606580/179662117-06ce4cea-3b05-45f2-a4d6-67fc6b176b0d.png)
